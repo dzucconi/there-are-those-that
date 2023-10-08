@@ -1,11 +1,9 @@
 // TODO:
 // - Improve play button
 // - Fullscreen option
-// - Preload next video
 // - Add loading indicator
 // - Add error handling
 // - Improve subtitle pull in/out
-// - Shuffle and only reset once all videos have been played
 
 import data from "./assets/data.json";
 
@@ -17,15 +15,38 @@ const DOM = {
   spinner: document.getElementById("spinner")!,
 };
 
-const random = () => {
-  const randomIndex = Math.floor(Math.random() * data.length);
-  return data[randomIndex];
+const shuffle = <T>(array: T[]) => {
+  const shuffled = array.slice();
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
 };
 
 const STATE = {
   playing: false,
-  queued: random(),
+  queue: shuffle(data),
 };
+
+const next = () => {
+  if (STATE.queue.length === 0) {
+    STATE.queue = shuffle(data);
+  }
+
+  return STATE.queue.shift()!;
+};
+
+const peek = () => {
+  if (STATE.queue.length === 0) {
+    STATE.queue = shuffle(data);
+  }
+
+  return STATE.queue[0];
+};
+
+// @ts-ignore
+window.STATE = STATE;
 
 const color = () => {
   return Math.floor(Math.random() * 16777215).toString(16);
@@ -54,7 +75,7 @@ const init = () => {
   }
 
   // Get a random video + caption
-  const entry = STATE.queued;
+  const entry = next();
 
   // Create new video element
   const video = document.createElement("video");
@@ -106,8 +127,7 @@ const init = () => {
 
       // Preload next video
       const preload = document.createElement("video");
-      const queued = random();
-      STATE.queued = queued;
+      const queued = peek();
       preload.src = queued.filename;
 
       preload.addEventListener("loadeddata", init, { once: true });
