@@ -1,0 +1,14 @@
+{
+  "name": "there-are-those-that",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.9.3",
+    "parcel": "^2.9.3",
+    "parcel-reporter-static-files-copy": "^1.5.3"
+  }
+}

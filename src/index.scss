@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+}
+
+.Stage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  @media (orientation: portrait) {
+    flex-direction: column;
+  }
+
+  &--player {
+    position: relative;
+    background-color: black;
+    flex: 3;
+  }
+
+  &--display {
+    flex: 1;
+    transition: background-color 2s;
+  }
+}
+
+.Video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  object-fit: cover;
+  display: block;
+  transition: filter 2s;
+}
+
+.Subtitles {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  pointer-events: none;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.25;
+  text-align: center;
+  color: white;
+  font-size: min(5vw, 5vh);
+  padding: 5em 1em 1em 1em;
+  mix-blend-mode: difference;
+}
+
+// Inversion
+.Video {
+  filter: hue-rotate(180deg);
+}
+.Overlay {
+  background-color: white;
+  mix-blend-mode: difference;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transition: background-color 2s;
+}
+
+.Button {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: min(5vw, 5vh);
+  background-color: transparent;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  padding: 2em;
+}
