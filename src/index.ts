@@ -14,10 +14,7 @@ const DOM = {
   subtitles: document.getElementById("subtitles")!,
   display: document.getElementById("display")!,
   overlay: document.getElementById("overlay")!,
-};
-
-const STATE = {
-  playing: false,
+  spinner: document.getElementById("spinner")!,
 };
 
 const random = () => {
@@ -25,15 +22,19 @@ const random = () => {
   return data[randomIndex];
 };
 
+const STATE = {
+  playing: false,
+  queued: random(),
+};
+
 const color = () => {
   return Math.floor(Math.random() * 16777215).toString(16);
 };
 
 const init = () => {
-  DOM.video.innerHTML = "";
+  // Reset
+  DOM.spinner.style.opacity = "0";
   DOM.subtitles.innerHTML = "";
-
-  // Set random colors
   DOM.display.style.backgroundColor = `#${color()}`;
 
   // If not playing, show play button
@@ -53,13 +54,15 @@ const init = () => {
   }
 
   // Get a random video + caption
-  const entry = random();
+  const entry = STATE.queued;
 
+  // Create new video element
   const video = document.createElement("video");
   video.className = "Video";
   video.src = entry.filename;
   video.controls = false;
 
+  // Set up subtitles
   const duration = entry.duration.split(":").reduce((acc, curr, i) => {
     const multiplier = [3600, 60, 1][i];
     return acc + parseInt(curr) * multiplier * 1000;
@@ -74,7 +77,19 @@ const init = () => {
     DOM.subtitles.innerHTML = subtitles[1];
   }, pause);
 
+  // Locate any previous video
+  const existingVideo = document.querySelector("video");
+
+  // Add the new video
   DOM.video.appendChild(video);
+
+  // Fade in new video, remove the exisitng video, if any
+  video.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 100 }).onfinish =
+    () => {
+      if (existingVideo) {
+        existingVideo.remove();
+      }
+    };
 
   video.addEventListener(
     "loadeddata",
@@ -87,8 +102,15 @@ const init = () => {
   video.addEventListener(
     "ended",
     () => {
-      // TODO: Preload next video, when it's ready; play it
-      init();
+      DOM.spinner.style.opacity = "1";
+
+      // Preload next video
+      const preload = document.createElement("video");
+      const queued = random();
+      STATE.queued = queued;
+      preload.src = queued.filename;
+
+      preload.addEventListener("loadeddata", init, { once: true });
     },
     { once: true }
   );

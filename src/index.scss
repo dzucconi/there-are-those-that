@@ -1,5 +1,9 @@
 body {
   margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.25;
+  font-size: min(5vw, 5vh);
+  -webkit-font-smoothing: antialiased;
 }
 
 .Stage {
@@ -19,12 +23,31 @@ body {
   &--player {
     position: relative;
     background-color: black;
-    flex: 3;
+    flex: 2;
   }
 
   &--display {
     flex: 1;
     transition: background-color 2s;
+    background-color: gray;
+  }
+
+  &--indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 0.25em;
+    width: 0.75em;
+    height: 0.75em;
+    mix-blend-mode: difference;
+
+    svg {
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 200ms;
+    }
   }
 }
 
@@ -35,7 +58,6 @@ body {
   background-color: black;
   object-fit: cover;
   display: block;
-  transition: filter 2s;
 }
 
 .Subtitles {
@@ -44,22 +66,9 @@ body {
   right: 0;
   left: 0;
   pointer-events: none;
-  -webkit-font-smoothing: antialiased;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.25;
   text-align: center;
   color: white;
-  font-size: min(5vw, 5vh);
   padding: 5em 1em 1em 1em;
-  mix-blend-mode: difference;
-}
-
-// Inversion
-.Video {
-  filter: hue-rotate(180deg);
-}
-.Overlay {
-  background-color: white;
   mix-blend-mode: difference;
 }
 
@@ -84,4 +93,13 @@ body {
   color: white;
   cursor: pointer;
   padding: 2em;
+}
+
+// Invert color scheme
+.Video {
+  filter: hue-rotate(180deg);
+}
+.Overlay {
+  background-color: white;
+  mix-blend-mode: difference;
 }
