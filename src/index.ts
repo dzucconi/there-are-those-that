@@ -56,8 +56,8 @@ const init = () => {
   // If the query param `invert=true` is present; then add the class 'Overlay--invert' to the overlay
   const urlParams = new URLSearchParams(window.location.search);
   const invert = urlParams.get("invert");
-  if (invert === "true") {
-    DOM.overlay.classList.add("Overlay--invert");
+  if (invert === "false") {
+    DOM.overlay.classList.remove("Overlay--invert");
   }
 
   // If not playing, show play button
