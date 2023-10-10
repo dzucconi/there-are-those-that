@@ -14,11 +14,7 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: row;
-
-  @media (orientation: portrait) {
-    flex-direction: column;
-  }
+  flex-direction: column;
 
   &--player {
     position: relative;
@@ -28,8 +24,7 @@ body {
 
   &--display {
     flex: 1;
-    transition: background-color 2s;
-    background-color: gray;
+    backdrop-filter: blur(1em);
   }
 
   &--indicator {
@@ -60,6 +55,18 @@ body {
   display: block;
 }
 
+.Mirror {
+  transform: scale(1, -1);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  object-fit: cover;
+  display: block;
+  top: 100%;
+  overflow: hidden;
+}
+
 .Subtitles {
   position: absolute;
   bottom: 0;
@@ -79,7 +86,6 @@ body {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  transition: background-color 2s;
 }
 
 .Button {
@@ -95,11 +101,10 @@ body {
   padding: 2em;
 }
 
-// Invert color scheme
-.Video {
-  filter: hue-rotate(180deg);
-}
 .Overlay {
-  background-color: white;
-  mix-blend-mode: difference;
+  &--invert {
+    // Invert color scheme
+    filter: hue-rotate(180deg);
+    backdrop-filter: invert(1);
+  }
 }

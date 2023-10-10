@@ -48,15 +48,17 @@ const peek = () => {
 // @ts-ignore
 window.STATE = STATE;
 
-const color = () => {
-  return Math.floor(Math.random() * 16777215).toString(16);
-};
-
 const init = () => {
   // Reset
   DOM.spinner.style.opacity = "0";
   DOM.subtitles.innerHTML = "";
-  DOM.display.style.backgroundColor = `#${color()}`;
+
+  // If the query param `invert=true` is present; then add the class 'Overlay--invert' to the overlay
+  const urlParams = new URLSearchParams(window.location.search);
+  const invert = urlParams.get("invert");
+  if (invert === "true") {
+    DOM.overlay.classList.add("Overlay--invert");
+  }
 
   // If not playing, show play button
   if (!STATE.playing) {
@@ -83,6 +85,13 @@ const init = () => {
   video.src = entry.filename;
   video.controls = false;
 
+  // Create a blurred mirror copy
+  const mirror = document.createElement("video");
+  mirror.className = "Mirror";
+  mirror.src = entry.filename;
+  mirror.controls = false;
+  mirror.muted = true;
+
   // Set up subtitles
   const duration = entry.duration.split(":").reduce((acc, curr, i) => {
     const multiplier = [3600, 60, 1][i];
@@ -99,16 +108,17 @@ const init = () => {
   }, pause);
 
   // Locate any previous video
-  const existingVideo = document.querySelector("video");
+  const existingVideos = document.querySelectorAll("video");
 
   // Add the new video
   DOM.video.appendChild(video);
+  DOM.video.appendChild(mirror);
 
-  // Fade in new video, remove the exisitng video, if any
+  // Fade in new video, remove the exisitng videos, if any
   video.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 100 }).onfinish =
     () => {
-      if (existingVideo) {
-        existingVideo.remove();
+      if (existingVideos.length > 0) {
+        existingVideos.forEach((video) => video.remove());
       }
     };
 
@@ -116,6 +126,7 @@ const init = () => {
     "loadeddata",
     () => {
       video.play();
+      mirror.play();
     },
     { once: true }
   );
