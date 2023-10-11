@@ -15,10 +15,10 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: black;
 
   &--player {
     position: relative;
-    background-color: black;
     flex: 2;
   }
 
@@ -53,6 +53,8 @@ body {
   background-color: black;
   object-fit: cover;
   display: block;
+  // Avoid 1px white line in some configurations
+  transform: scale(1.005);
 }
 
 .Mirror {
@@ -65,6 +67,11 @@ body {
   display: block;
   top: 100%;
   overflow: hidden;
+}
+
+.Video,
+.Mirror {
+  filter: hue-rotate(180deg);
 }
 
 .Subtitles {
@@ -86,6 +93,7 @@ body {
   width: 100%;
   height: 100%;
   pointer-events: none;
+  z-index: 99;
 }
 
 .Button {
@@ -102,9 +110,5 @@ body {
 }
 
 .Overlay {
-  &--invert {
-    // Invert color scheme
-    filter: hue-rotate(180deg);
-    backdrop-filter: invert(1);
-  }
+  backdrop-filter: invert(1);
 }

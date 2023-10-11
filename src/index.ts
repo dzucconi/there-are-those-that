@@ -1,7 +1,6 @@
 // TODO:
 // - Improve play button
 // - Fullscreen option
-// - Add loading indicator
 // - Add error handling
 // - Improve subtitle pull in/out
 
@@ -53,13 +52,6 @@ const init = () => {
   DOM.spinner.style.opacity = "0";
   DOM.subtitles.innerHTML = "";
 
-  // If the query param `invert=true` is present; then add the class 'Overlay--invert' to the overlay
-  const urlParams = new URLSearchParams(window.location.search);
-  const invert = urlParams.get("invert");
-  if (invert === "false") {
-    DOM.overlay.classList.remove("Overlay--invert");
-  }
-
   // If not playing, show play button
   if (!STATE.playing) {
     const button = document.createElement("button");
@@ -82,14 +74,21 @@ const init = () => {
   // Create new video element
   const video = document.createElement("video");
   video.className = "Video";
-  video.src = entry.filename;
   video.controls = false;
+  video.playsInline = true;
+  video.autoplay = true;
+  video.muted = false;
+  video.src = entry.filename;
+
+  video.load();
 
   // Create a blurred mirror copy
   const mirror = document.createElement("video");
   mirror.className = "Mirror";
   mirror.src = entry.filename;
   mirror.controls = false;
+  mirror.playsInline = true;
+  mirror.autoplay = true;
   mirror.muted = true;
 
   // Set up subtitles
@@ -123,7 +122,7 @@ const init = () => {
     };
 
   video.addEventListener(
-    "loadeddata",
+    "canplaythrough",
     () => {
       video.play();
       mirror.play();
@@ -139,9 +138,14 @@ const init = () => {
       // Preload next video
       const preload = document.createElement("video");
       const queued = peek();
-      preload.src = queued.filename;
 
-      preload.addEventListener("loadeddata", init, { once: true });
+      preload.src = queued.filename;
+      preload.preload = "auto";
+      preload.muted = true;
+
+      preload.load();
+
+      preload.addEventListener("canplaythrough", init, { once: true });
     },
     { once: true }
   );
