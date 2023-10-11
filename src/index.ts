@@ -49,7 +49,7 @@ window.STATE = STATE;
 
 const init = () => {
   // Reset
-  DOM.spinner.style.opacity = "0";
+  DOM.spinner.style.opacity = "1";
   DOM.subtitles.innerHTML = "";
 
   // If not playing, show play button
@@ -102,10 +102,6 @@ const init = () => {
 
   DOM.subtitles.innerHTML = subtitles[0];
 
-  setTimeout(() => {
-    DOM.subtitles.innerHTML = subtitles[1];
-  }, pause);
-
   // Locate any previous video
   const existingVideos = document.querySelectorAll("video");
 
@@ -124,8 +120,14 @@ const init = () => {
   video.addEventListener(
     "canplaythrough",
     () => {
+      DOM.spinner.style.opacity = "0";
+
       video.play();
       mirror.play();
+
+      setTimeout(() => {
+        DOM.subtitles.innerHTML = subtitles[1];
+      }, pause);
     },
     { once: true }
   );
