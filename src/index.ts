@@ -49,7 +49,6 @@ window.STATE = STATE;
 
 const init = () => {
   // Reset
-  DOM.spinner.style.opacity = "1";
   DOM.subtitles.innerHTML = "";
 
   // If not playing, show play button
@@ -67,6 +66,8 @@ const init = () => {
 
     return;
   }
+
+  DOM.spinner.style.opacity = "1";
 
   // Get a random video + caption
   const entry = next();
