@@ -1,398 +1,1238 @@
 [
-  {
-    "filename": "5abd4e3e-c03e-40b2-a786-72d24559ac4a.mp4",
-    "title": "Are not confined to geographical boundaries ... yet adapt to regional ecosystems.",
-    "duration": "0:00:06.503",
-    "description": "jack_costume1_cameraA"
-  },
-  {
-    "filename": "1dab4a43-261f-4987-b4cc-ebb28ae2ea90.mp4",
-    "title": "Lack an emotional compass ... yet are calibrated for user satisfaction and experience.",
-    "duration": "0:00:06.604",
-    "description": "richard_costume1_cameraA"
-  },
-  {
-    "filename": "85acc947-b298-4908-afcc-2078b5dfd66a.mp4",
-    "title": "Do not cultivate relationships ... yet influence social dynamics in noticeable ways.",
-    "duration": "0:00:06.935",
-    "description": "jack_costume2_cameraA"
-  },
-  {
-    "filename": "4f83e0ea-415a-4adb-af40-0bd878dcdfef.mp4",
-    "title": "Are not limited by lifespan ... yet undergo phases of birth, maturity, and obsolescence.",
-    "duration": "0:00:07.801",
-    "description": "jonathan_costume1_cameraA"
-  },
-  {
-    "filename": "dd794c37-c471-4966-ac68-6e6fdfe362c6.mp4",
-    "title": "Operate without a mission statement ... yet contribute to mission-critical operations.",
-    "duration": "0:00:07.034",
-    "description": "kenneth_costume1_cameraA"
-  },
-  {
-    "filename": "b70ac14a-0670-4d9d-b590-beba76867024.mp4",
-    "title": "Do not aspire for recognition ... yet find mention in academic and industry discourse.",
-    "duration": "0:00:07.135",
-    "description": "nina_costume1_cameraA"
-  },
-  {
-    "filename": "642767ff-2442-492f-ac2f-dc20bd97ae81.mp4",
-    "title": "Are not anchored in historical contexts ... yet evolve through phases marking distinct eras.",
-    "duration": "0:00:07.271",
-    "description": "james_costume1_cameraA"
-  },
-  {
-    "filename": "edb72d0f-b9cf-4bc7-9369-9a90f749c9e7.mp4",
-    "title": "Hold no patents ... yet foster environments conducive to innovation.",
-    "duration": "0:00:06.670",
-    "description": "mia_costume2_cameraA"
-  },
-  {
-    "filename": "d89361d1-1ad3-49bc-956f-a2de912476f7.mp4",
-    "title": "Are not governed by human laws ... yet are subject to regulatory oversight.",
-    "duration": "0:00:06.169",
-    "description": "veronika_costume1_cameraA"
-  },
-  {
-    "filename": "581bbaaf-b85d-4011-88b5-1e733e6ba886.mp4",
-    "title": "Do not promote any agenda ... yet are utilized for advancing various narratives.",
-    "duration": "0:00:07.370",
-    "description": "mallory_costume2_cameraA"
-  },
-  {
-    "filename": "acaf1f97-9c62-40ea-9e5f-32cbbbf39deb.mp4",
-    "title": "Are not structured through hierarchy ... yet organize information in discernible layers.",
-    "duration": "0:00:06.401",
-    "description": "sonia_costume2_cameraA"
-  },
-  {
-    "filename": "a1d7c2d0-43f6-4d02-a352-696d48a835c7.mp4",
-    "title": "Do not possess a physical identity ... yet manifest in identifiable digital footprints.",
-    "duration": "0:00:07.701",
-    "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
-  },
-  {
-    "filename": "1ad4e4ab-72c7-43e5-bad7-2f28b3312d17.mp4",
-    "title": "Hold no personal data ... yet are scrutinized for privacy implications.",
-    "duration": "0:00:06.202",
-    "description": "james_costume1_cameraA"
-  },
-  {
-    "filename": "09bfe4f2-63b8-463c-b748-632ec00be1e1.mp4",
-    "title": "Adhere to no formal education paradigms ... yet are instrumental in knowledge dissemination.",
-    "duration": "0:00:07.536",
-    "description": "bridget_costume1_cameraA"
-  },
-  {
-    "filename": "deab3497-19fb-4054-8c72-284a833ae869.mp4",
-    "title": "Provide no concrete products ... yet facilitate the creation of tangible outputs.",
-    "duration": "0:00:06.604",
-    "description": "richard_costume1_cameraA"
-  },
-  {
-    "filename": "88849ce8-020b-436f-b7cb-6816b78698ca.mp4",
-    "title": "Are not guided by a strategic vision ... yet align with the objectives of multiple stakeholders.",
-    "duration": "0:00:08.070",
-    "description": "ruby_costume1_cameraA"
-  },
-  {
-    "filename": "08b1ac39-1e52-4abe-9298-50b7476dc067.mp4",
-    "title": "Are not powered by a central energy source ... yet consume resources in various forms.",
-    "duration": "0:00:07.169",
-    "description": "nina_costume1_cameraA"
-  },
-  {
-    "filename": "63529fde-bbe4-4bd0-82f2-77ee65a9970a.mp4",
-    "title": "Bear no trademarks ... yet have distinctive characteristics recognizable by experts.",
-    "duration": "0:00:07.937",
-    "description": "laura_costume1_cameraA"
-  },
-  {
-    "filename": "bdfefa34-f8a0-4fcb-900d-512c42b12aeb.mp4",
-    "title": "Exist without an explicit purpose ... yet find integration in purpose-driven environments.",
-    "duration": "0:00:07.203",
-    "description": "james_costume1_cameraA"
-  },
-  {
-    "filename": "b237b1a5-c47d-4648-9133-f246fd645f09.mp4",
-    "title": "Operate without a sensory system ... yet respond to external stimuli in predictable ways.",
-    "duration": "0:00:07.701",
-    "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
-  },
-  {
-    "filename": "7e8a0c2d-81a1-4f02-b5cd-daafb89d9616.mp4",
-    "title": "Experience no biological constraints ... yet mimic patterns of organic growth.",
-    "duration": "0:00:06.469",
-    "description": "jack_costume2_cameraA"
-  },
-  {
-    "filename": "32eb8c20-3fd7-4bfb-b393-8a859595ef1c.mp4",
-    "title": "Are not bound by a linguistic framework ... yet are subjected to semantic analysis.",
-    "duration": "0:00:06.869",
-    "description": "jonathan_costume1_cameraA"
-  },
-  {
-    "filename": "9b0b923a-ccc7-411a-8aa7-a45f0f2cb318.mp4",
-    "title": "Manifest no cultural preferences ... yet are shaped by societal norms.",
-    "duration": "0:00:06.869",
-    "description": "bridget_costume2_cameraA"
-  },
-  {
-    "filename": "091fa0cb-607f-4983-b518-7ffefd38b525.mp4",
-    "title": "Do not adhere to a moral code ... yet are examined for ethical considerations.",
-    "duration": "0:00:06.968",
-    "description": "mia_costume2_cameraA"
-  },
-  {
-    "filename": "5e9bc275-50f3-454c-a445-e1bb5f7af1d6.mp4",
-    "title": "Generate no direct emissions ... yet have implications for environmental sustainability.",
-    "duration": "0:00:07.470",
-    "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
-  },
-  {
-    "filename": "520081f9-6364-4a40-9754-0d7761333c45.mp4",
-    "title": "Maintain no dedicated workforce ... yet stimulate employment in ancillary sectors.",
-    "duration": "0:00:07.135",
-    "description": "anna_costume1_cameraA"
-  },
-  {
-    "filename": "8b59fc20-8116-44b8-a3a1-31831fee6dfd.mp4",
-    "title": "Hold no political affiliations ... yet are influenced by policy and governance.",
-    "duration": "0:00:06.637",
-    "description": "anna_costume1_cameraA"
-  },
-  {
-    "filename": "926fc6b8-42d0-45fd-a1d5-c3e3ef01b158.mp4",
-    "title": "Do not subscribe to a particular school of thought ... yet are analyzed through various theoretical lenses.",
-    "duration": "0:00:08.170",
-    "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
-  },
-  {
-    "filename": "ff07d00c-8cbe-42f5-8301-40824daa7a69.mp4",
-    "title": "Exhibit no physical wear ... yet have discernible life cycles.",
-    "duration": "0:00:06.334",
-    "description": "ruby_costume1_cameraA"
-  },
-  {
-    "filename": "0b81fd73-03da-45e0-b034-60ea22ea1291.mp4",
-    "title": "Hold no allegiance to any platform ... yet conform to industry standards.",
-    "duration": "0:00:06.003",
-    "description": "james_costume1_cameraA"
-  },
-  {
-    "filename": "1c033c22-956d-4169-9685-0ee11dc2c4c2.mp4",
-    "title": "Present no formal documentation ... yet are subject to rigorous study.",
-    "duration": "0:00:06.435",
-    "description": "mia_costume1_cameraA"
-  },
-  {
-    "filename": "05e46f69-d023-4f35-a57b-80a72ba9cf01.mp4",
-    "title": "Operate without fixed timelines ... yet demonstrate chronological patterns.",
-    "duration": "0:00:06.334",
-    "description": "vincent_costume2_cameraA"
-  },
-  {
-    "filename": "4a21dcd5-687a-4f49-a4cd-d1af139b9e41.mp4",
-    "title": "Generate no standalone profits ... yet influence economic dynamics.",
-    "duration": "0:00:07.337",
-    "description": "laura_costume1_cameraA"
-  },
-  {
-    "filename": "dc27f395-0b04-42bd-9692-586fa3c71a9f.mp4",
-    "title": "Display no obvious trajectories ... yet align with predictable outcomes.",
-    "duration": "0:00:06.169",
-    "description": "sonia_costume1_cameraA"
-  },
-  {
-    "filename": "2d611dce-d0f9-4d2f-9f04-02334bbfed7a.mp4",
-    "title": "Are not associated with tangible assets ... yet contribute to perceived value.",
-    "duration": "0:00:06.401",
-    "description": "veronika_costume1_cameraA"
-  },
-  {
-    "filename": "54e94f55-aaad-4138-b55a-a4ffb479ac83.mp4",
-    "title": "Lack specific origin points ... yet trace back to discernible sources.",
-    "duration": "0:00:06.169",
-    "description": "anna_costume1_cameraA"
-  },
-  {
-    "filename": "939b7210-5f57-42f9-8ebb-66d9e1c4fc78.mp4",
-    "title": "Are not limited by geographical boundaries ... yet adhere to regional legal frameworks.",
-    "duration": "0:00:07.001",
-    "description": "vincent_costume2_cameraA"
-  },
-  {
-    "filename": "62e62c06-fb92-4c7e-b0c8-ac6d32d80885.mp4",
-    "title": "Require no maintenance ... yet undergo continuous modifications.",
-    "duration": "0:00:05.970",
-    "description": "vincent_costume2_cameraA"
-  },
-  {
-    "filename": "1a8823fa-dbc8-4717-968d-98faa077ff36.mp4",
-    "title": "Offer no direct solutions ... yet foster environments for problem-solving.",
-    "duration": "0:00:06.902",
-    "description": "mallory_costume2_cameraA"
-  },
-  {
-    "filename": "6590e80e-176a-4620-8d81-a5c07eedac08.mp4",
-    "title": "Hold no inherent hierarchy ... yet organize according to unseen principles.",
-    "duration": "0:00:06.968",
-    "description": "mia_costume2_cameraA"
-  },
-  {
-    "filename": "58231cc6-b411-420f-b555-795c38f9b564.mp4",
-    "title": "Display no sentiment ... yet are scrutinized for potential implications.",
-    "duration": "0:00:06.334",
-    "description": "kenneth_costume1_cameraA"
-  },
-  {
-    "filename": "28297e42-d0b7-4c05-aa25-913b2edaa5e1.mp4",
-    "title": "Present no overt bias ... yet are molded by underlying assumptions.",
-    "duration": "0:00:06.571",
-    "description": "bridget_costume1_cameraA"
-  },
-  {
-    "filename": "797858e1-60b9-45b1-96de-89374ace109e.mp4",
-    "title": "Are indifferent to user interaction ... yet are influenced by user inputs.",
-    "duration": "0:00:06.301",
-    "description": "nina_costume1_cameraA"
-  },
-  {
-    "filename": "1f5d6dc5-a235-4803-b5c5-86eb1ad0d4d9.mp4",
-    "title": "Contain no embedded narratives ... yet contribute to overarching discourses.",
-    "duration": "0:00:06.836",
-    "description": "bridget_costume2_cameraA"
-  },
-  {
-    "filename": "3aee5b80-8e72-4bad-841d-826f0322d12b.mp4",
-    "title": "Appear to be simple ... yet are infinitely complex.",
-    "duration": "0:00:05.001",
-    "description": "anna_costume1_cameraA"
-  },
-  {
-    "filename": "6c60f41f-1458-474e-b653-4a8a70a020ef.mp4",
-    "title": "Will never be seen by anyone ... yet are endlessly reproduced.",
-    "duration": "0:00:05.601",
-    "description": "james_costume1_cameraA"
-  },
-  {
-    "filename": "da2f1337-8ee6-41a8-9c83-acdf87753e65.mp4",
-    "title": "Are the result of years of work ... yet can be created in an instant.",
-    "duration": "0:00:06.136",
-    "description": "mia_costume1_cameraA"
-  },
-  {
-    "filename": "92acf026-4030-4d8c-9828-af834eb2999d.mp4",
-    "title": "Allow for a great deal of variation ... yet are instantly recognizable.",
-    "duration": "0:00:06.367",
-    "description": "santa_costume1_cameraA"
-  },
-  {
-    "filename": "83dcfa3e-fc9b-4c0f-a3f6-705d1df404c0.mp4",
-    "title": "Have no specific content ... yet are precise and unequivocal.",
-    "duration": "0:00:06.103",
-    "description": "vincent_costume2_cameraA"
-  },
-  {
-    "filename": "03bb22c8-bcd7-41d4-a8ca-2764cb3f6f79.mp4",
-    "title": "Experience no evolutionary pressures ... yet exhibit tendencies of adaptation.",
-    "duration": "0:00:07.370",
-    "description": "mia_costume2_cameraA"
-  },
-  {
-    "filename": "5eae6d41-1223-4e86-8f2f-36f219001619.mp4",
-    "title": "Are not constrained by dimensions ... yet are analyzed within defined parameters.",
-    "duration": "0:00:06.169",
-    "description": "sonia_costume2_cameraA"
-  },
-  {
-    "filename": "e680cbe4-2258-43d3-a8d5-679a773fd078.mp4",
-    "title": "Have no manual of operations ... yet follow unspoken protocols.",
-    "duration": "0:00:06.737",
-    "description": "ruby_costume1_cameraA"
-  },
-  {
-    "filename": "1a5a2b17-ef91-4be9-b34f-7f8143c05997.mp4",
-    "title": "Lack a centralized database ... yet proliferate through decentralized networks.",
-    "duration": "0:00:06.670",
-    "description": "jonathan_costume1_cameraA"
-  },
-  {
-    "filename": "c4e4993e-d122-49a9-8e1a-f8246abf06d7.mp4",
-    "title": "Serve no apparent function ... yet integrate seamlessly into complex systems.",
-    "duration": "0:00:06.737",
-    "description": "quharrison"
-  },
-  {
-    "filename": "24c6c924-c645-495b-b06f-a3b3036f7959.mp4",
-    "title": "Are devoid of aesthetic considerations ... yet are subjected to formal analysis.",
-    "duration": "0:00:07.034",
-    "description": "mia_costume2_cameraA"
-  },
-  {
-    "filename": "66f01030-468d-4253-bbd4-c75423f11234.mp4",
-    "title": "Utilize minimal resources ... yet demand significant computational power.",
-    "duration": "0:00:06.169",
-    "description": "sonia_costume2_cameraA"
-  },
-  {
-    "filename": "90abdc8d-ec27-4521-b71c-f353ce38634d.mp4",
-    "title": "Are not bound by copyright ... yet display patterns of intellectual property.",
-    "duration": "0:00:06.169",
-    "description": "nina_costume1_cameraA"
-  },
-  {
-    "filename": "3142d3ff-c073-41a9-b48f-a7456afb0123.mp4",
-    "title": "Hold no proprietary information ... yet are governed by specific algorithms.",
-    "duration": "0:00:06.334",
-    "description": "james_costume1_cameraA"
-  },
-  {
-    "filename": "1b399ffa-1d13-458c-99cf-ef79703d0c5f.mp4",
-    "title": "Exist in transient states ... yet persist through methodical analysis.",
-    "duration": "0:00:06.637",
-    "description": "mia_costume1_cameraA"
-  },
-  {
-    "filename": "016cbf62-aef1-4794-b700-cf60547e9d0d.mp4",
-    "title": "Exhibit no intrinsic value ... yet contribute to essential frameworks.",
-    "duration": "0:00:06.003",
-    "description": "richard_costume1_cameraA"
-  },
-  {
-    "filename": "587fec91-56fe-4dec-8268-60e29b277425.mp4",
-    "title": "Adhere to no established theory ... yet find grounding in empirical data.",
-    "duration": "0:00:06.637",
-    "description": "mia_costume2_cameraA"
-  },
-  {
-    "filename": "eb2cbb3b-62e2-4ad9-82a2-5b387d6cbdbb.mp4",
-    "title": "Are subject to entropy ... yet defy predictive degradation.",
-    "duration": "0:00:05.904",
-    "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
-  },
-  {
-    "filename": "012b220e-8792-43b0-ba03-d74f38c1082d.mp4",
-    "title": "Occupy non-physical spaces ... yet conform to tangible patterns.",
-    "duration": "0:00:06.136",
-    "description": "anna_costume1_cameraA"
-  },
-  {
-    "filename": "9a8966c8-3395-4233-895f-0fdda8770815.mp4",
-    "title": "Develop through iterative processes ... yet result from spontaneous generation.",
-    "duration": "0:00:07.001",
-    "description": "bridget_costume1_cameraA"
-  },
-  {
-    "filename": "554e09d2-d7e8-433e-8aaa-ea561b0e7ae6.mp4",
-    "title": "Follow non-linear patterns ... yet maintain statistical relevance.",
-    "duration": "0:00:06.367",
-    "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
-  },
-  {
-    "filename": "c337a1b8-77e0-4dbb-bf7d-eec12280482b.mp4",
-    "title": "Contain undefined variables ... yet adhere to stringent parameters.",
-    "duration": "0:00:06.334",
-    "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
-  }
+    {
+        "filename": "5abd4e3e-c03e-40b2-a786-72d24559ac4a.mp4",
+        "title": "Are not confined to geographical boundaries ... yet adapt to regional ecosystems.",
+        "duration": "0:00:06.503",
+        "description": "jack_costume1_cameraA"
+    },
+    {
+        "filename": "1dab4a43-261f-4987-b4cc-ebb28ae2ea90.mp4",
+        "title": "Lack an emotional compass ... yet are calibrated for user satisfaction and experience.",
+        "duration": "0:00:06.604",
+        "description": "richard_costume1_cameraA"
+    },
+    {
+        "filename": "85acc947-b298-4908-afcc-2078b5dfd66a.mp4",
+        "title": "Do not cultivate relationships ... yet influence social dynamics in noticeable ways.",
+        "duration": "0:00:06.935",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "4f83e0ea-415a-4adb-af40-0bd878dcdfef.mp4",
+        "title": "Are not limited by lifespan ... yet undergo phases of birth, maturity, and obsolescence.",
+        "duration": "0:00:07.801",
+        "description": "jonathan_costume1_cameraA"
+    },
+    {
+        "filename": "dd794c37-c471-4966-ac68-6e6fdfe362c6.mp4",
+        "title": "Operate without a mission statement ... yet contribute to mission-critical operations.",
+        "duration": "0:00:07.034",
+        "description": "kenneth_costume1_cameraA"
+    },
+    {
+        "filename": "b70ac14a-0670-4d9d-b590-beba76867024.mp4",
+        "title": "Do not aspire for recognition ... yet find mention in academic and industry discourse.",
+        "duration": "0:00:07.135",
+        "description": "nina_costume1_cameraA"
+    },
+    {
+        "filename": "642767ff-2442-492f-ac2f-dc20bd97ae81.mp4",
+        "title": "Are not anchored in historical contexts ... yet evolve through phases marking distinct eras.",
+        "duration": "0:00:07.271",
+        "description": "james_costume1_cameraA"
+    },
+    {
+        "filename": "edb72d0f-b9cf-4bc7-9369-9a90f749c9e7.mp4",
+        "title": "Hold no patents ... yet foster environments conducive to innovation.",
+        "duration": "0:00:06.670",
+        "description": "mia_costume2_cameraA"
+    },
+    {
+        "filename": "d89361d1-1ad3-49bc-956f-a2de912476f7.mp4",
+        "title": "Are not governed by human laws ... yet are subject to regulatory oversight.",
+        "duration": "0:00:06.169",
+        "description": "veronika_costume1_cameraA"
+    },
+    {
+        "filename": "581bbaaf-b85d-4011-88b5-1e733e6ba886.mp4",
+        "title": "Do not promote any agenda ... yet are utilized for advancing various narratives.",
+        "duration": "0:00:07.370",
+        "description": "mallory_costume2_cameraA"
+    },
+    {
+        "filename": "acaf1f97-9c62-40ea-9e5f-32cbbbf39deb.mp4",
+        "title": "Are not structured through hierarchy ... yet organize information in discernible layers.",
+        "duration": "0:00:06.401",
+        "description": "sonia_costume2_cameraA"
+    },
+    {
+        "filename": "a1d7c2d0-43f6-4d02-a352-696d48a835c7.mp4",
+        "title": "Do not possess a physical identity ... yet manifest in identifiable digital footprints.",
+        "duration": "0:00:07.701",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "1ad4e4ab-72c7-43e5-bad7-2f28b3312d17.mp4",
+        "title": "Hold no personal data ... yet are scrutinized for privacy implications.",
+        "duration": "0:00:06.202",
+        "description": "james_costume1_cameraA"
+    },
+    {
+        "filename": "09bfe4f2-63b8-463c-b748-632ec00be1e1.mp4",
+        "title": "Adhere to no formal education paradigms ... yet are instrumental in knowledge dissemination.",
+        "duration": "0:00:07.536",
+        "description": "bridget_costume1_cameraA"
+    },
+    {
+        "filename": "deab3497-19fb-4054-8c72-284a833ae869.mp4",
+        "title": "Provide no concrete products ... yet facilitate the creation of tangible outputs.",
+        "duration": "0:00:06.604",
+        "description": "richard_costume1_cameraA"
+    },
+    {
+        "filename": "88849ce8-020b-436f-b7cb-6816b78698ca.mp4",
+        "title": "Are not guided by a strategic vision ... yet align with the objectives of multiple stakeholders.",
+        "duration": "0:00:08.070",
+        "description": "ruby_costume1_cameraA"
+    },
+    {
+        "filename": "08b1ac39-1e52-4abe-9298-50b7476dc067.mp4",
+        "title": "Are not powered by a central energy source ... yet consume resources in various forms.",
+        "duration": "0:00:07.169",
+        "description": "nina_costume1_cameraA"
+    },
+    {
+        "filename": "63529fde-bbe4-4bd0-82f2-77ee65a9970a.mp4",
+        "title": "Bear no trademarks ... yet have distinctive characteristics recognizable by experts.",
+        "duration": "0:00:07.937",
+        "description": "laura_costume1_cameraA"
+    },
+    {
+        "filename": "bdfefa34-f8a0-4fcb-900d-512c42b12aeb.mp4",
+        "title": "Exist without an explicit purpose ... yet find integration in purpose-driven environments.",
+        "duration": "0:00:07.203",
+        "description": "james_costume1_cameraA"
+    },
+    {
+        "filename": "b237b1a5-c47d-4648-9133-f246fd645f09.mp4",
+        "title": "Operate without a sensory system ... yet respond to external stimuli in predictable ways.",
+        "duration": "0:00:07.701",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "7e8a0c2d-81a1-4f02-b5cd-daafb89d9616.mp4",
+        "title": "Experience no biological constraints ... yet mimic patterns of organic growth.",
+        "duration": "0:00:06.469",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "32eb8c20-3fd7-4bfb-b393-8a859595ef1c.mp4",
+        "title": "Are not bound by a linguistic framework ... yet are subjected to semantic analysis.",
+        "duration": "0:00:06.869",
+        "description": "jonathan_costume1_cameraA"
+    },
+    {
+        "filename": "9b0b923a-ccc7-411a-8aa7-a45f0f2cb318.mp4",
+        "title": "Manifest no cultural preferences ... yet are shaped by societal norms.",
+        "duration": "0:00:06.869",
+        "description": "bridget_costume2_cameraA"
+    },
+    {
+        "filename": "091fa0cb-607f-4983-b518-7ffefd38b525.mp4",
+        "title": "Do not adhere to a moral code ... yet are examined for ethical considerations.",
+        "duration": "0:00:06.968",
+        "description": "mia_costume2_cameraA"
+    },
+    {
+        "filename": "5e9bc275-50f3-454c-a445-e1bb5f7af1d6.mp4",
+        "title": "Generate no direct emissions ... yet have implications for environmental sustainability.",
+        "duration": "0:00:07.470",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "520081f9-6364-4a40-9754-0d7761333c45.mp4",
+        "title": "Maintain no dedicated workforce ... yet stimulate employment in ancillary sectors.",
+        "duration": "0:00:07.135",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "8b59fc20-8116-44b8-a3a1-31831fee6dfd.mp4",
+        "title": "Hold no political affiliations ... yet are influenced by policy and governance.",
+        "duration": "0:00:06.637",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "926fc6b8-42d0-45fd-a1d5-c3e3ef01b158.mp4",
+        "title": "Do not subscribe to a particular school of thought ... yet are analyzed through various theoretical lenses.",
+        "duration": "0:00:08.170",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "ff07d00c-8cbe-42f5-8301-40824daa7a69.mp4",
+        "title": "Exhibit no physical wear ... yet have discernible life cycles.",
+        "duration": "0:00:06.334",
+        "description": "ruby_costume1_cameraA"
+    },
+    {
+        "filename": "0b81fd73-03da-45e0-b034-60ea22ea1291.mp4",
+        "title": "Hold no allegiance to any platform ... yet conform to industry standards.",
+        "duration": "0:00:06.003",
+        "description": "james_costume1_cameraA"
+    },
+    {
+        "filename": "1c033c22-956d-4169-9685-0ee11dc2c4c2.mp4",
+        "title": "Present no formal documentation ... yet are subject to rigorous study.",
+        "duration": "0:00:06.435",
+        "description": "mia_costume1_cameraA"
+    },
+    {
+        "filename": "05e46f69-d023-4f35-a57b-80a72ba9cf01.mp4",
+        "title": "Operate without fixed timelines ... yet demonstrate chronological patterns.",
+        "duration": "0:00:06.334",
+        "description": "vincent_costume2_cameraA"
+    },
+    {
+        "filename": "4a21dcd5-687a-4f49-a4cd-d1af139b9e41.mp4",
+        "title": "Generate no standalone profits ... yet influence economic dynamics.",
+        "duration": "0:00:07.337",
+        "description": "laura_costume1_cameraA"
+    },
+    {
+        "filename": "dc27f395-0b04-42bd-9692-586fa3c71a9f.mp4",
+        "title": "Display no obvious trajectories ... yet align with predictable outcomes.",
+        "duration": "0:00:06.169",
+        "description": "sonia_costume1_cameraA"
+    },
+    {
+        "filename": "2d611dce-d0f9-4d2f-9f04-02334bbfed7a.mp4",
+        "title": "Are not associated with tangible assets ... yet contribute to perceived value.",
+        "duration": "0:00:06.401",
+        "description": "veronika_costume1_cameraA"
+    },
+    {
+        "filename": "54e94f55-aaad-4138-b55a-a4ffb479ac83.mp4",
+        "title": "Lack specific origin points ... yet trace back to discernible sources.",
+        "duration": "0:00:06.169",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "939b7210-5f57-42f9-8ebb-66d9e1c4fc78.mp4",
+        "title": "Are not limited by geographical boundaries ... yet adhere to regional legal frameworks.",
+        "duration": "0:00:07.001",
+        "description": "vincent_costume2_cameraA"
+    },
+    {
+        "filename": "62e62c06-fb92-4c7e-b0c8-ac6d32d80885.mp4",
+        "title": "Require no maintenance ... yet undergo continuous modifications.",
+        "duration": "0:00:05.970",
+        "description": "vincent_costume2_cameraA"
+    },
+    {
+        "filename": "1a8823fa-dbc8-4717-968d-98faa077ff36.mp4",
+        "title": "Offer no direct solutions ... yet foster environments for problem-solving.",
+        "duration": "0:00:06.902",
+        "description": "mallory_costume2_cameraA"
+    },
+    {
+        "filename": "6590e80e-176a-4620-8d81-a5c07eedac08.mp4",
+        "title": "Hold no inherent hierarchy ... yet organize according to unseen principles.",
+        "duration": "0:00:06.968",
+        "description": "mia_costume2_cameraA"
+    },
+    {
+        "filename": "58231cc6-b411-420f-b555-795c38f9b564.mp4",
+        "title": "Display no sentiment ... yet are scrutinized for potential implications.",
+        "duration": "0:00:06.334",
+        "description": "kenneth_costume1_cameraA"
+    },
+    {
+        "filename": "28297e42-d0b7-4c05-aa25-913b2edaa5e1.mp4",
+        "title": "Present no overt bias ... yet are molded by underlying assumptions.",
+        "duration": "0:00:06.571",
+        "description": "bridget_costume1_cameraA"
+    },
+    {
+        "filename": "797858e1-60b9-45b1-96de-89374ace109e.mp4",
+        "title": "Are indifferent to user interaction ... yet are influenced by user inputs.",
+        "duration": "0:00:06.301",
+        "description": "nina_costume1_cameraA"
+    },
+    {
+        "filename": "1f5d6dc5-a235-4803-b5c5-86eb1ad0d4d9.mp4",
+        "title": "Contain no embedded narratives ... yet contribute to overarching discourses.",
+        "duration": "0:00:06.836",
+        "description": "bridget_costume2_cameraA"
+    },
+    {
+        "filename": "3aee5b80-8e72-4bad-841d-826f0322d12b.mp4",
+        "title": "Appear to be simple ... yet are infinitely complex.",
+        "duration": "0:00:05.001",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "6c60f41f-1458-474e-b653-4a8a70a020ef.mp4",
+        "title": "Will never be seen by anyone ... yet are endlessly reproduced.",
+        "duration": "0:00:05.601",
+        "description": "james_costume1_cameraA"
+    },
+    {
+        "filename": "da2f1337-8ee6-41a8-9c83-acdf87753e65.mp4",
+        "title": "Are the result of years of work ... yet can be created in an instant.",
+        "duration": "0:00:06.136",
+        "description": "mia_costume1_cameraA"
+    },
+    {
+        "filename": "92acf026-4030-4d8c-9828-af834eb2999d.mp4",
+        "title": "Allow for a great deal of variation ... yet are instantly recognizable.",
+        "duration": "0:00:06.367",
+        "description": "santa_costume1_cameraA"
+    },
+    {
+        "filename": "83dcfa3e-fc9b-4c0f-a3f6-705d1df404c0.mp4",
+        "title": "Have no specific content ... yet are precise and unequivocal.",
+        "duration": "0:00:06.103",
+        "description": "vincent_costume2_cameraA"
+    },
+    {
+        "filename": "03bb22c8-bcd7-41d4-a8ca-2764cb3f6f79.mp4",
+        "title": "Experience no evolutionary pressures ... yet exhibit tendencies of adaptation.",
+        "duration": "0:00:07.370",
+        "description": "mia_costume2_cameraA"
+    },
+    {
+        "filename": "5eae6d41-1223-4e86-8f2f-36f219001619.mp4",
+        "title": "Are not constrained by dimensions ... yet are analyzed within defined parameters.",
+        "duration": "0:00:06.169",
+        "description": "sonia_costume2_cameraA"
+    },
+    {
+        "filename": "e680cbe4-2258-43d3-a8d5-679a773fd078.mp4",
+        "title": "Have no manual of operations ... yet follow unspoken protocols.",
+        "duration": "0:00:06.737",
+        "description": "ruby_costume1_cameraA"
+    },
+    {
+        "filename": "1a5a2b17-ef91-4be9-b34f-7f8143c05997.mp4",
+        "title": "Lack a centralized database ... yet proliferate through decentralized networks.",
+        "duration": "0:00:06.670",
+        "description": "jonathan_costume1_cameraA"
+    },
+    {
+        "filename": "c4e4993e-d122-49a9-8e1a-f8246abf06d7.mp4",
+        "title": "Serve no apparent function ... yet integrate seamlessly into complex systems.",
+        "duration": "0:00:06.737",
+        "description": "quharrison"
+    },
+    {
+        "filename": "24c6c924-c645-495b-b06f-a3b3036f7959.mp4",
+        "title": "Are devoid of aesthetic considerations ... yet are subjected to formal analysis.",
+        "duration": "0:00:07.034",
+        "description": "mia_costume2_cameraA"
+    },
+    {
+        "filename": "66f01030-468d-4253-bbd4-c75423f11234.mp4",
+        "title": "Utilize minimal resources ... yet demand significant computational power.",
+        "duration": "0:00:06.169",
+        "description": "sonia_costume2_cameraA"
+    },
+    {
+        "filename": "90abdc8d-ec27-4521-b71c-f353ce38634d.mp4",
+        "title": "Are not bound by copyright ... yet display patterns of intellectual property.",
+        "duration": "0:00:06.169",
+        "description": "nina_costume1_cameraA"
+    },
+    {
+        "filename": "3142d3ff-c073-41a9-b48f-a7456afb0123.mp4",
+        "title": "Hold no proprietary information ... yet are governed by specific algorithms.",
+        "duration": "0:00:06.334",
+        "description": "james_costume1_cameraA"
+    },
+    {
+        "filename": "1b399ffa-1d13-458c-99cf-ef79703d0c5f.mp4",
+        "title": "Exist in transient states ... yet persist through methodical analysis.",
+        "duration": "0:00:06.637",
+        "description": "mia_costume1_cameraA"
+    },
+    {
+        "filename": "016cbf62-aef1-4794-b700-cf60547e9d0d.mp4",
+        "title": "Exhibit no intrinsic value ... yet contribute to essential frameworks.",
+        "duration": "0:00:06.003",
+        "description": "richard_costume1_cameraA"
+    },
+    {
+        "filename": "587fec91-56fe-4dec-8268-60e29b277425.mp4",
+        "title": "Adhere to no established theory ... yet find grounding in empirical data.",
+        "duration": "0:00:06.637",
+        "description": "mia_costume2_cameraA"
+    },
+    {
+        "filename": "eb2cbb3b-62e2-4ad9-82a2-5b387d6cbdbb.mp4",
+        "title": "Are subject to entropy ... yet defy predictive degradation.",
+        "duration": "0:00:05.904",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "012b220e-8792-43b0-ba03-d74f38c1082d.mp4",
+        "title": "Occupy non-physical spaces ... yet conform to tangible patterns.",
+        "duration": "0:00:06.136",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "9a8966c8-3395-4233-895f-0fdda8770815.mp4",
+        "title": "Develop through iterative processes ... yet result from spontaneous generation.",
+        "duration": "0:00:07.001",
+        "description": "bridget_costume1_cameraA"
+    },
+    {
+        "filename": "554e09d2-d7e8-433e-8aaa-ea561b0e7ae6.mp4",
+        "title": "Follow non-linear patterns ... yet maintain statistical relevance.",
+        "duration": "0:00:06.367",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "c337a1b8-77e0-4dbb-bf7d-eec12280482b.mp4",
+        "title": "Contain undefined variables ... yet adhere to stringent parameters.",
+        "duration": "0:00:06.334",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "d12cdf5b-cf9f-433f-834d-02e4b902d877.mp4",
+        "title": "Engage with the established lexicon of professional discourse ... yet are mindful of the evolving vernacular of sectoral innovation.",
+        "duration": "0:00:09.768",
+        "description": "mia_costume1_cameraA"
+    },
+    {
+        "filename": "aa186780-af40-4fcc-a295-dd519db3f425.mp4",
+        "title": "Adhere to the structured regime of time management ... yet are flexible in the face of shifting priorities.",
+        "duration": "0:00:08.737",
+        "description": "ruby_costume1_cameraA"
+    },
+    {
+        "filename": "09c3d37e-dbc7-47e2-9c8c-d52574093db6.mp4",
+        "title": "Abide by the code of professional ethics ... yet are adaptable in navigating the labyrinth of practical dilemmas.",
+        "duration": "0:00:09.269",
+        "description": "ruby_costume1_cameraA"
+    },
+    {
+        "filename": "aa575b50-bd5e-4af9-a070-9b0fd0a9dd5c.mp4",
+        "title": "Operate within the matrix of operational protocols ... yet are agile in the face of evolving challenges.",
+        "duration": "0:00:07.635",
+        "description": "richard_costume1_cameraA"
+    },
+    {
+        "filename": "5f405079-8382-4351-bd0d-5b83eaa0ceb5.mp4",
+        "title": "Adhere to the rigors of analytical scrutiny ... yet are open to the intuitive sparks of innovative thought.",
+        "duration": "0:00:07.767",
+        "description": "quharrison"
+    },
+    {
+        "filename": "e1fd6c61-bb1e-4b82-9f0e-cd3effd191ad.mp4",
+        "title": "Navigate the complex landscape of organizational hierarchies ... yet aspire for the cultivation of collaborative ethos.",
+        "duration": "0:00:10.170",
+        "description": "laura_costume1_cameraA"
+    },
+    {
+        "filename": "abe5aba3-4925-405c-825e-76c1af035cde.mp4",
+        "title": "Uphold the mandate of stakeholder accountability ... yet are guided by the compass of ethical responsibility.",
+        "duration": "0:00:07.869",
+        "description": "marcus_costume1_cameraA"
+    },
+    {
+        "filename": "79519eaf-5ce1-4668-9964-bd1137c5cd85.mp4",
+        "title": "Adhere to the timeline of project deliverables ... yet are responsive to the exigencies of unforeseen contingencies.",
+        "duration": "0:00:08.368",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "70238df2-e7dc-4636-995b-e76823e255b8.mp4",
+        "title": "Engage in the discourse of objective analysis ... yet are versed in the art of persuasive articulation.",
+        "duration": "0:00:08.137",
+        "description": "mia_costume1_cameraA"
+    },
+    {
+        "filename": "69ba0809-fcc0-4551-a08f-dabbf6fa0031.mp4",
+        "title": "Operate within the confines of established paradigms ... yet are perceptive to the winds of paradigmatic shift.",
+        "duration": "0:00:08.070",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "75ef1913-7fd0-4286-86c1-b3702c59f6a3.mp4",
+        "title": "Navigate the established corridors of policy adherence ... yet are cognizant of the imperative for regulatory adaptation.",
+        "duration": "0:00:09.437",
+        "description": "bridget_costume2_cameraA"
+    },
+    {
+        "filename": "f4641a27-f0c4-48fc-bc3e-81fefcc3e007.mp4",
+        "title": "Uphold the standards of professional competence ... yet are committed to the ethos of lifelong learning.",
+        "duration": "0:00:07.304",
+        "description": "vincent_costume2_cameraA"
+    },
+    {
+        "filename": "ecb6ade2-7074-4fb6-8b9d-3e1c5259779b.mp4",
+        "title": "Engage with the certainties of empirical data ... yet grapple with the uncertainties of predictive modeling.",
+        "duration": "0:00:07.370",
+        "description": "richard_costume1_cameraA"
+    },
+    {
+        "filename": "1353ad12-3618-4bf3-8046-282bc791b72e.mp4",
+        "title": "Abide by the principles of ethical conduct ... yet are confronted with the gray areas of moral ambiguity.",
+        "duration": "0:00:07.635",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "ded80a39-1b7b-4838-8316-7d462f756ce3.mp4",
+        "title": "Operate within the scaffolding of institutional frameworks ... yet are attuned to the undercurrents of systemic evolution.",
+        "duration": "0:00:09.437",
+        "description": "mallory_costume1_cameraA"
+    },
+    {
+        "filename": "68c27114-4c64-477e-9e05-b857027a9fe2.mp4",
+        "title": "Navigate the terrain of established knowledge ... yet are propelled towards the frontier of unknown inquiries.",
+        "duration": "0:00:07.767",
+        "description": "jonathan_costume1_cameraA"
+    },
+    {
+        "filename": "a4bda15f-1b9a-4e78-89a3-71ce97ebfa9a.mp4",
+        "title": "Adhere to the dictates of factual accuracy ... yet are immersed in the realm of interpretative analysis.",
+        "duration": "0:00:07.971",
+        "description": "vincent_costume2_cameraA"
+    },
+    {
+        "filename": "b57d9a7d-b10b-4aac-a3d9-e87a4f0e2038.mp4",
+        "title": "Are immune to the lure of embellishment ... yet are steeped in a crucible of meaning.",
+        "duration": "0:00:06.503",
+        "description": "bridget_costume1_cameraA"
+    },
+    {
+        "filename": "1f72ca11-8d81-4135-81e4-47f4ea363ed7.mp4",
+        "title": "Disclaim allegiance to transient trends ... yet are reflective of a temporal milieu.",
+        "duration": "0:00:06.803",
+        "description": "laura_costume1_cameraA"
+    },
+    {
+        "filename": "0a99c199-5e23-4a80-b323-fdc7910fa191.mp4",
+        "title": "Maintain a veneer of objectivity ... yet are mutable in the theater of perspective.",
+        "duration": "0:00:06.968",
+        "description": "bridget_costume1_cameraA"
+    },
+    {
+        "filename": "5ca54fa1-32d4-4b61-8a61-2b4da28e8969.mp4",
+        "title": "Harbor no ostensible motive ... yet propel a silent dialectic.",
+        "duration": "0:00:05.837",
+        "description": "jack_costume1_cameraA"
+    },
+    {
+        "filename": "55204f02-ebe5-48ac-9e66-164e4be4d5aa.mp4",
+        "title": "Retain a semblance of autonomy ... yet are enmeshed in a web of relationality.",
+        "duration": "0:00:06.737",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "abed28fa-0f57-4ef5-9992-b9ebb82dd412.mp4",
+        "title": "Project a facade of neutrality ... yet are laden with encoded bias.",
+        "duration": "0:00:06.103",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "b6dedf14-41da-4f64-a422-ecaf137cf91e.mp4",
+        "title": "Bear no hallmark of authorship ... yet are imprinted with the lexicon of their genesis.",
+        "duration": "0:00:06.469",
+        "description": "jack_costume1_cameraA"
+    },
+    {
+        "filename": "0bec32dc-4703-449b-8102-4e898b361e76.mp4",
+        "title": "Reveal no overt allegiance ... yet are tethered to underlying paradigms.",
+        "duration": "0:00:06.604",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "94afa7ce-107d-4ff1-a195-eaf1821109a5.mp4",
+        "title": "Are impervious to temporal decay ... yet are molded by the epoch they inhabit.",
+        "duration": "0:00:06.334",
+        "description": "kenneth_costume1_cameraA"
+    },
+    {
+        "filename": "becc08cd-b77e-4966-bec7-141582e31684.mp4",
+        "title": "Are ostensibly devoid of affect ... yet engage with a subtext of critical inquiry.",
+        "duration": "0:00:07.271",
+        "description": "bridget_costume1_cameraA"
+    },
+    {
+        "filename": "ee7c2887-d992-49ae-99e7-b21f729e64ef.mp4",
+        "title": "Are insulated from external impositions ... yet are contingent on contextual framing.",
+        "duration": "0:00:06.869",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "34392096-642f-4176-8073-ee0855b03ccd.mp4",
+        "title": "Persist in a state of deliberate indeterminacy ... yet elicit a stream of structured contemplation.",
+        "duration": "0:00:07.169",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "2a8ab124-99b2-40db-a8fa-d320c4b1fa49.mp4",
+        "title": "Evade capture within the confines of systematic frameworks ... yet anchor navigation among them.",
+        "duration": "0:00:07.304",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "6e4bc96e-8d25-4cec-ba3b-eef7eabae265.mp4",
+        "title": "Occupy a domain unbounded by the limitations of language ... yet motivate a lexicon of articulations.",
+        "duration": "0:00:08.269",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "3b8a1f72-1a44-43c5-9361-acdaed95ad25.mp4",
+        "title": "Manifest as enigmas ... yet serve as a lodestone.",
+        "duration": "0:00:05.137",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "8d837474-146c-4a81-af0a-9f3fc5385423.mp4",
+        "title": "Flourish in a milieu unfettered by categorical imperatives ... yet fuel an ongoing quest for demystification.",
+        "duration": "0:00:09.735",
+        "description": "ruby_costume1_cameraA"
+    },
+    {
+        "filename": "1e7067fa-e4a8-420c-879e-c04872121ec4.mp4",
+        "title": "Exhibit a resistance to the parameters of quantification ... yet offer a fertile ground for cultivation.",
+        "duration": "0:00:07.602",
+        "description": "vincent_costume2_cameraA"
+    },
+    {
+        "filename": "0ea1f2ba-799e-4dfd-bd5a-d1ecf44a2fff.mp4",
+        "title": "Inhabit spaces untouched by the metric of time ... yet engender a relentless forward momentum.",
+        "duration": "0:00:07.734",
+        "description": "kenneth_costume1_cameraA"
+    },
+    {
+        "filename": "74a72595-1028-4a8c-b4f0-9c6aa4f13d75.mp4",
+        "title": "Are untethered from the constraints of static representation ... yet command an unwavering focus.",
+        "duration": "0:00:08.236",
+        "description": "mallory_costume2_cameraA"
+    },
+    {
+        "filename": "f2bdc74f-408c-4c9f-931c-e62680f3c159.mp4",
+        "title": "Harbor no allegiances to the dictates of physicality ... yet offer a locus for contemplation.",
+        "duration": "0:00:07.304",
+        "description": "veronika_costume1_cameraA"
+    },
+    {
+        "filename": "27ee43b5-3cc9-4340-89ac-ae0bce5127dd.mp4",
+        "title": "Offer no concessions to the exigencies of form ... yet command a ceaseless influx of attention.",
+        "duration": "0:00:07.602",
+        "description": "veronika_costume1_cameraA"
+    },
+    {
+        "filename": "5eaf1217-e666-421c-919c-2192730f1b05.mp4",
+        "title": "Occupy a landscape devoid of fixed markers ... yet provide a ground for expeditions.",
+        "duration": "0:00:06.803",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "de267b4e-0d30-41e7-8c05-7cb821e63cc0.mp4",
+        "title": "Permeate the interstices of established thought ... yet coalesce into a distinct focal point.",
+        "duration": "0:00:06.737",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "874ea67b-a699-47d9-b798-691294e1e160.mp4",
+        "title": "Exist amidst complexities untouched by reductionism ... yet invite meticulous dissection.",
+        "duration": "0:00:07.437",
+        "description": "veronika_costume1_cameraA"
+    },
+    {
+        "filename": "63ee7484-4624-4ada-8681-4685ec0ed880.mp4",
+        "title": "Hold no tangible presence in the firmament ... yet cast an expansive shadow.",
+        "duration": "0:00:07.034",
+        "description": "laura_costume1_cameraA"
+    },
+    {
+        "filename": "668e9ee8-9e12-45c6-939b-7d79d9a7cc9c.mp4",
+        "title": "Embrace a posture of selective visibility ... yet remain a constant fixture in the landscape.",
+        "duration": "0:00:07.169",
+        "description": "veronika_costume1_cameraA"
+    },
+    {
+        "filename": "eb13eb79-2b60-4b5f-8e2a-abac2ff8c701.mp4",
+        "title": "Transcend the boundaries of formalized study ... yet forge an unbroken chain of contemplation.",
+        "duration": "0:00:07.569",
+        "description": "marcus_costume1_cameraA"
+    },
+    {
+        "filename": "e1f80674-704f-48a3-8953-7d84677f6184.mp4",
+        "title": "Flourish in an environment devoid of absolutes ... yet anchor deep-seated curiosities.",
+        "duration": "0:00:07.135",
+        "description": "quharrison"
+    },
+    {
+        "filename": "7c90506b-6c7a-489f-a2d7-51cfb68c653e.mp4",
+        "title": "Maintain a state of fluid ambiguity ... yet catalyze precise explorations.",
+        "duration": "0:00:06.537",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "90fc479a-365d-4451-9440-f886a0b1149d.mp4",
+        "title": "Display no affinity for established paradigms ... yet cultivate a fertile territory for conceptual expansions.",
+        "duration": "0:00:08.903",
+        "description": "mia_costume1_cameraA"
+    },
+    {
+        "filename": "2a54ae02-e58f-437c-9da2-ee31d82a375d.mp4",
+        "title": "Function in a realm that transcends linear analysis ... yet demand a deep, recursive engagement.",
+        "duration": "0:00:08.368",
+        "description": "mallory_costume1_cameraA"
+    },
+    {
+        "filename": "0dbdbb93-d6b7-4e06-8fd3-cd43b3d1b8c2.mp4",
+        "title": "Retain an aura of enigmatic resonance ... yet invite methodical dissections.",
+        "duration": "0:00:06.604",
+        "description": "nina_costume1_cameraA"
+    },
+    {
+        "filename": "e923bf91-55e4-48e8-9dda-c987471edebb.mp4",
+        "title": "Exist within a space of dynamic oppositions ... yet foster a harmonious discourse.",
+        "duration": "0:00:06.770",
+        "description": "james_costume1_cameraA"
+    },
+    {
+        "filename": "2a1402d3-f147-492a-85d4-cc0d30b8924c.mp4",
+        "title": "Bear no markers of conventional classifications ... yet perpetuate an intricate web of dialogues.",
+        "duration": "0:00:07.767",
+        "description": "quharrison"
+    },
+    {
+        "filename": "6afacc1c-2339-4104-ac81-062917b95546.mp4",
+        "title": "Reveal no allegiance to established methodologies ... yet foster a continuous cycle of regeneration.",
+        "duration": "0:00:08.501",
+        "description": "mia_costume1_cameraA"
+    },
+    {
+        "filename": "cce92620-b58d-4e9c-8228-aa6100dd7f77.mp4",
+        "title": "Hold no static position in the cosmos ... yet exhibit a persistent gravitational pull.",
+        "duration": "0:00:07.271",
+        "description": "quharrison"
+    },
+    {
+        "filename": "b10dde11-b4ae-40a1-83b6-81d7c11f25f0.mp4",
+        "title": "Manifest as both particle and wave ... yet readily bifurcate.",
+        "duration": "0:00:06.836",
+        "description": "mallory_costume2_cameraA"
+    },
+    {
+        "filename": "079aa1e9-4708-411f-80e5-8f2bec35a1b0.mp4",
+        "title": "Disregard normative notions of coherence ... yet invite an orchestrated scrutiny.",
+        "duration": "0:00:07.304",
+        "description": "mallory_costume1_cameraA"
+    },
+    {
+        "filename": "ff3b8d69-4676-49d1-acff-166b82da2536.mp4",
+        "title": "Reside beyond the fringes of tangible analysis ... yet commandeer a central position in theoretical dialogues.",
+        "duration": "0:00:09.035",
+        "description": "bridget_costume2_cameraA"
+    },
+    {
+        "filename": "66a42dc1-2127-455a-bbcf-f0ca9bbf463f.mp4",
+        "title": "Hold no allegiance to perceivable realities ... yet become a nexus of convergence.",
+        "duration": "0:00:06.571",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "0a617b85-289a-4391-9bf8-7d90e8bcc48e.mp4",
+        "title": "Exist in a state of anomaly ... yet foster a predictable rhythm.",
+        "duration": "0:00:05.837",
+        "description": "vincent_costume2_cameraA"
+    },
+    {
+        "filename": "9b29292d-7b8e-4395-a91a-177ce0127d52.mp4",
+        "title": "Retain a chimeric nature ... yet encourage rigor.",
+        "duration": "0:00:05.069",
+        "description": "kenneth_costume1_cameraA"
+    },
+    {
+        "filename": "2206ab0f-03aa-4703-8d40-a6a9038d06ba.mp4",
+        "title": "Manifest as both the question and the answer ... yet elude a unified theoretical grasp.",
+        "duration": "0:00:07.971",
+        "description": "ruby_costume1_cameraA"
+    },
+    {
+        "filename": "3e5fadab-6d85-4c9d-b386-40109b6985aa.mp4",
+        "title": "Occupy spaces devoid of conventional significance ... yet catalyze nuanced debates.",
+        "duration": "0:00:07.734",
+        "description": "mia_costume1_cameraA"
+    },
+    {
+        "filename": "4f37b8f3-5e8a-4878-96e8-950a0f31e7af.mp4",
+        "title": "Harbor a non-committal stance to tangible realities ... yet yield a substantive analytical yield.",
+        "duration": "0:00:08.103",
+        "description": "bridget_costume1_cameraA"
+    },
+    {
+        "filename": "14baca2c-373e-431f-8738-4cfbd91ed4a3.mp4",
+        "title": "Stand aloof from prevalent theories ... yet form a fertile ground for conceptual excavations.",
+        "duration": "0:00:07.536",
+        "description": "quharrison"
+    },
+    {
+        "filename": "049b04b2-7307-452b-9e04-e714f65441a1.mp4",
+        "title": "Exhibit an affinity for structural paradox ... yet sit well within the realms of logical discourse.",
+        "duration": "0:00:07.536",
+        "description": "james_costume1_cameraA"
+    },
+    {
+        "filename": "de11b82b-b469-45dc-a4c1-65ee68253b55.mp4",
+        "title": "Disassociate from explicit theorizations ... yet form the nexus of complex analytical discourses.",
+        "duration": "0:00:08.070",
+        "description": "veronika_costume1_cameraA"
+    },
+    {
+        "filename": "6d3ec9ed-b495-4584-ae80-0b466e8778ee.mp4",
+        "title": "Retain an essence of abstraction ... yet demand a grounded theoretical approach.",
+        "duration": "0:00:06.968",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "2564dcc8-db6b-401a-9d10-25b10cbf4a65.mp4",
+        "title": "Hold no claim to definitive interpretations ... yet foster a space for perpetual academic dialogue.",
+        "duration": "0:00:08.501",
+        "description": "bridget_costume1_cameraA"
+    },
+    {
+        "filename": "0e3cc292-d4ec-4b52-b9b4-cf64ca6a060f.mp4",
+        "title": "Are detached from the realm of sensory perceptions ... yet facilitate a heightened analytical cognizance.",
+        "duration": "0:00:07.869",
+        "description": "marcus_costume1_cameraA"
+    },
+    {
+        "filename": "72a28bf5-5cd1-4321-9b25-68fd48d7be5e.mp4",
+        "title": "Exist beyond the boundaries of tangible representation ... yet precipitate a focused gaze.",
+        "duration": "0:00:08.368",
+        "description": "ruby_costume1_cameraA"
+    },
+    {
+        "filename": "1d16c144-fc68-4457-af5a-316bcc57a382.mp4",
+        "title": "Maintain an indeterminate character ... yet inspire a deterministic line of inquiry.",
+        "duration": "0:00:06.703",
+        "description": "james_costume1_cameraA"
+    },
+    {
+        "filename": "d13074e9-b3cb-45b5-b38d-f4e0ece22c36.mp4",
+        "title": "Are resistant to categorical absolutes ... yet foster a nuanced academic discourse.",
+        "duration": "0:00:07.337",
+        "description": "jonathan_costume1_cameraA"
+    },
+    {
+        "filename": "d402ba5e-703d-4568-9b68-3bd7925f3363.mp4",
+        "title": "Are devoid of linear trajectories ... yet espouse a complex, networked existence.",
+        "duration": "0:00:06.537",
+        "description": "jack_costume1_cameraA"
+    },
+    {
+        "filename": "602aeb9d-2dc5-48e0-a627-d131548e9682.mp4",
+        "title": "Operate outside the margins of established norms ... yet reside within the purview of discerning analysis.",
+        "duration": "0:00:08.368",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "57362957-39fe-41fc-b2c7-e9e4883397c7.mp4",
+        "title": "Elude the grasp of canonical doctrines ... yet inhabit a realm of methodical dissection.",
+        "duration": "0:00:06.869",
+        "description": "vincent_costume1_cameraA"
+    },
+    {
+        "filename": "e09f3df1-1738-46f9-9ab7-88e541ea61dc.mp4",
+        "title": "Disavow direct communication ... yet engender intricate dialogic exchanges.",
+        "duration": "0:00:06.637",
+        "description": "marcus_costume1_cameraA"
+    },
+    {
+        "filename": "cc77ab23-c25c-4009-ab95-5c1bfd022895.mp4",
+        "title": "Manifest as both ephemeral and eternal ... yet evade a chronologic narrative.",
+        "duration": "0:00:06.435",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "8fb620d3-bc4a-4bdd-83f4-aa9ae7978b56.mp4",
+        "title": "Defy conventional perceptual frameworks ... yet are grounded in scholarly contemplation.",
+        "duration": "0:00:07.203",
+        "description": "quharrison"
+    },
+    {
+        "filename": "8fce28d8-83dd-4c34-b0d0-26fce2eea78d.mp4",
+        "title": "Escape the confines of spatial constraints ... yet resonate within theoretical landscapes.",
+        "duration": "0:00:07.271",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "6a62c85b-a5f7-46a8-ac26-231a2c3bbbe4.mp4",
+        "title": "Possess no concrete ontology ... yet catalyze epistemological pursuits.",
+        "duration": "0:00:06.670",
+        "description": "nina_costume1_cameraA"
+    },
+    {
+        "filename": "16cc3352-61d3-4209-8841-e190d4b3c117.mp4",
+        "title": "Exist in a state of perpetual ambiguity ... yet invoke a certain erudite clarity.",
+        "duration": "0:00:06.869",
+        "description": "vincent_costume1_cameraA"
+    },
+    {
+        "filename": "182ae085-a758-4cac-807a-c25d51255247.mp4",
+        "title": "Occupy a space devoid of tangible metrics ... yet command an analytical discernment.",
+        "duration": "0:00:07.536",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "32403341-adc6-4e26-92d9-a95a2353326c.mp4",
+        "title": "Perpetuate a formless existence ... yet foster structured analytical inquiry.",
+        "duration": "0:00:07.169",
+        "description": "bridget_costume1_cameraA"
+    },
+    {
+        "filename": "23fbce76-df3c-47cd-b7e0-1b44d32c4885.mp4",
+        "title": "Resist encapsulation within familiar paradigms ... yet harbor a discreet lexicon.",
+        "duration": "0:00:06.803",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "71fb87fc-ec72-4475-8073-5e9f79a88556.mp4",
+        "title": "Abstain from explicit narrativity ... yet engender multifaceted interpretations.",
+        "duration": "0:00:06.301",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "399e1866-1387-4226-84fa-44572c2b3884.mp4",
+        "title": "Foster no allegiance to any discourse ... yet are inseparable from academic dialogues.",
+        "duration": "0:00:07.203",
+        "description": "vincent_costume1_cameraA"
+    },
+    {
+        "filename": "0ecf90bd-567b-4844-88f4-9a6d686d659e.mp4",
+        "title": "Transcend normative frameworks ... yet are encapsulated within methodical scrutiny.",
+        "duration": "0:00:06.367",
+        "description": "richard_costume1_cameraA"
+    },
+    {
+        "filename": "acb1d02e-461e-45d4-8b99-1c9206927f57.mp4",
+        "title": "Exhibit stark autonomy ... yet are tethered to contextual nuances.",
+        "duration": "0:00:06.136",
+        "description": "jonathan_costume1_cameraA"
+    },
+    {
+        "filename": "2d15e549-9626-44a8-8cb7-25620f847c7e.mp4",
+        "title": "Defy facile classification ... yet invite an enduring scholarly engagement.",
+        "duration": "0:00:06.367",
+        "description": "jack_costume1_cameraA"
+    },
+    {
+        "filename": "4559983b-0f45-4d39-b6c4-1d0bee7a0dfc.mp4",
+        "title": "Are not anchored in observable reality ... yet navigate through uncharted empirical domains.",
+        "duration": "0:00:07.370",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "8e246edc-eec7-4708-b768-5bc113e1b196.mp4",
+        "title": "Operate in realms devoid of sentiment ... yet evoke a dispassionate resonance.",
+        "duration": "0:00:06.169",
+        "description": "nina_costume1_cameraA"
+    },
+    {
+        "filename": "260be601-b023-474c-8a43-1652b9e808c3.mp4",
+        "title": "Embrace a form of negation ... yet affirm an unspoken dialectic.",
+        "duration": "0:00:06.334",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "9cb55df9-45a5-4410-aa4e-065a17d00b89.mp4",
+        "title": "Function without apparent purpose ... yet catalyze inquiries.",
+        "duration": "0:00:05.634",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "415e17f3-25d6-4a52-854a-8bcb5add4ba8.mp4",
+        "title": "Hold no allegiance to a time or place ... yet chronicle an unwavering evolutionary trajectory.",
+        "duration": "0:00:07.767",
+        "description": "quharrison"
+    },
+    {
+        "filename": "b988b0db-3dbb-48d3-a412-ba17319f1873.mp4",
+        "title": "Exist within nebulous boundaries ... yet delineate a clear epistemological framework.",
+        "duration": "0:00:07.067",
+        "description": "kenneth_costume1_cameraA"
+    },
+    {
+        "filename": "417c3c9a-ff06-49ce-9be4-7d774495f3c1.mp4",
+        "title": "Resist facile interpretation ... yet demand rigorous analysis.",
+        "duration": "0:00:06.169",
+        "description": "nina_costume1_cameraA"
+    },
+    {
+        "filename": "438e3091-cb27-4e7c-85e7-c5de45f3863e.mp4",
+        "title": "Disrupt traditional aesthetic paradigms ... yet adhere to an unstated lexicon.",
+        "duration": "0:00:06.670",
+        "description": "marcus_costume1_cameraA"
+    },
+    {
+        "filename": "be1f02fc-d537-4a1a-a6a6-0c1350ba1020.mp4",
+        "title": "Pervade multifaceted mediums ... yet resist homogenization.",
+        "duration": "0:00:05.803",
+        "description": "vincent_costume1_cameraA"
+    },
+    {
+        "filename": "a4a63af1-50b2-48bc-8162-9dbb74456697.mp4",
+        "title": "Bear no allegiance to any form ... yet are meticulously structured.",
+        "duration": "0:00:06.268",
+        "description": "bridget_costume2_cameraA"
+    },
+    {
+        "filename": "7f10ad08-b971-48df-a9f9-68a9c6d0b2e5.mp4",
+        "title": "Navigate through transient dimensions ... yet are moored in a static reality.",
+        "duration": "0:00:06.571",
+        "description": "laura_costume1_cameraA"
+    },
+    {
+        "filename": "2993d1af-6890-433e-92d3-8ec7c8792728.mp4",
+        "title": "Manifest as tangible phenomena ... yet defy empirical categorization.",
+        "duration": "0:00:07.304",
+        "description": "mallory_costume1_cameraA"
+    },
+    {
+        "filename": "10a78c6d-573f-4d41-bfc1-2572dd8bde4b.mp4",
+        "title": "Reside outside of conventional narratives ... yet are ingrained in collective discourse.",
+        "duration": "0:00:07.203",
+        "description": "mia_costume1_cameraA"
+    },
+    {
+        "filename": "21f9e905-a5d2-45b4-942e-45aa4e777806.mp4",
+        "title": "Exhibit no discernible pattern ... yet are governed by rigid principles.",
+        "duration": "0:00:06.070",
+        "description": "veronika_costume1_cameraA"
+    },
+    {
+        "filename": "a4469f99-e213-435b-933f-64414648136d.mp4",
+        "title": "Are not featured in atlases ... yet map out territories of uncharted knowledge.",
+        "duration": "0:00:06.703",
+        "description": "nina_costume1_cameraA"
+    },
+    {
+        "filename": "8732af3f-d4ce-45a4-9956-d8992cdb61b3.mp4",
+        "title": "Do not have a role in physical warfare ... yet influence strategies in digital warfare and cyber security.",
+        "duration": "0:00:08.103",
+        "description": "nina_costume1_cameraA"
+    },
+    {
+        "filename": "727aeedd-07bd-4bde-9e4e-35dab9a7ab0c.mp4",
+        "title": "Lack a voice in legislative bodies ... yet are subjected to legislation.",
+        "duration": "0:00:07.001",
+        "description": "laura_costume1_cameraA"
+    },
+    {
+        "filename": "04ef71cb-77df-42aa-a91a-ef319b5c49e2.mp4",
+        "title": "Do not adhere to a geological time scale ... yet evolve at speeds warranting a unique chronological analysis.",
+        "duration": "0:00:08.070",
+        "description": "jack_costume1_cameraA"
+    },
+    {
+        "filename": "2527dccb-74ce-403a-92a2-a35d02d6fc53.mp4",
+        "title": "Lack a role in botanical studies ... yet foster the growth of sprawling networks.",
+        "duration": "0:00:06.670",
+        "description": "anna_costume1_cameraA"
+    },
+    {
+        "filename": "3ef8b9e0-f2fe-45ce-9969-4404e6615fda.mp4",
+        "title": "Lack a role in astronomical observations ... yet navigate vast expanses.",
+        "duration": "0:00:06.503",
+        "description": "veronika_costume1_cameraA"
+    },
+    {
+        "filename": "c55a4305-3b91-4518-82be-81ea2a117072.mp4",
+        "title": "Do not possess geological formations ... yet lay the groundwork for expansive terrains.",
+        "duration": "0:00:08.070",
+        "description": "ruby_costume1_cameraA"
+    },
+    {
+        "filename": "d8f9b9d7-c63d-410d-890f-e3c8dd599575.mp4",
+        "title": "Are not grounded in meteorological phenomena ... yet influence climates of opinion and discourse.",
+        "duration": "0:00:07.971",
+        "description": "mia_costume2_cameraA"
+    },
+    {
+        "filename": "6fa89289-8459-4297-8f33-79f890364303.mp4",
+        "title": "Do not possess a neural network ... yet facilitate complex information processing and analysis.",
+        "duration": "0:00:07.569",
+        "description": "jack_costume1_cameraA"
+    },
+    {
+        "filename": "30ddb207-bbed-47bd-92c7-cd97d32afe68.mp4",
+        "title": "Lack a biological immune system ... yet are equipped with mechanisms to counter threats and vulnerabilities.",
+        "duration": "0:00:08.837",
+        "description": "ruby_costume1_cameraA"
+    },
+    {
+        "filename": "af4ce865-5461-4af7-8a27-1b7850923b8e.mp4",
+        "title": "Are not confined by geographical borders ... yet influence transnational dialogues and collaborations.",
+        "duration": "0:00:08.637",
+        "description": "mia_costume1_cameraA"
+    },
+    {
+        "filename": "44d595a4-8aaf-4e0c-a513-58df8be22bc7.mp4",
+        "title": "Do not engage in chemical reactions ... yet catalyze significant shifts.",
+        "duration": "0:00:06.902",
+        "description": "mallory_costume1_cameraA"
+    },
+    {
+        "filename": "f9a9df29-dac1-4281-a577-16044d4e1b9e.mp4",
+        "title": "Are not governed by Newtonian physics ... yet display behaviors influenced by underlying principles of quantum mechanics.",
+        "duration": "0:00:08.737",
+        "description": "veronika_costume1_cameraA"
+    },
+    {
+        "filename": "919ba2e1-66d7-4a2b-81f9-3fc384dc416c.mp4",
+        "title": "Lack an auditory component ... yet resonate with frequency patterns identifiable by specialists.",
+        "duration": "0:00:07.602",
+        "description": "marcus_costume1_cameraA"
+    },
+    {
+        "filename": "943cd32c-12c9-4085-af49-100d96b8aff2.mp4",
+        "title": "Are not bound by any symbiotic relationship ... yet exhibit characteristics of mutualism with various entities.",
+        "duration": "0:00:08.870",
+        "description": "mia_costume2_cameraA"
+    },
+    {
+        "filename": "19f825bc-693b-4848-ad4d-c0199a6df1d5.mp4",
+        "title": "Do not require physical resources ... yet have an unmistakable footprint on the ecosystem.",
+        "duration": "0:00:07.034",
+        "description": "richard_costume1_cameraA"
+    },
+    {
+        "filename": "ace5ec31-7adf-4e08-ad39-1320f5be8a25.mp4",
+        "title": "Lack a finite existence ... yet are subject to processes of transformation and cessation.",
+        "duration": "0:00:07.937",
+        "description": "11b26380-ed22-490b-8ccb-afb34559bc99"
+    },
+    {
+        "filename": "9fcf1255-88ce-48fb-8d6d-5bdf3a850e56.mp4",
+        "title": "Lack a definitive beginning or end ... yet exhibit patterns marking phases of inception and decline.",
+        "duration": "0:00:08.434",
+        "description": "bridget_costume2_cameraA"
+    },
+    {
+        "filename": "35538c3e-2277-4b22-9565-540386be72f6.mp4",
+        "title": "Do not possess a sentient nature ... yet influence beings in various capacities.",
+        "duration": "0:00:06.737",
+        "description": "jack_costume2_cameraA"
+    },
+    {
+        "filename": "7c703c80-2429-427b-9f81-6d932ce310d4.mp4",
+        "title": "Are not confined to a linear progression ... yet are studied for their trajectory and evolution over time.",
+        "duration": "0:00:08.803",
+        "description": "ruby_costume1_cameraA"
+    },
+    {
+        "filename": "c50a1d4a-c919-47a7-a24b-d0b1f7ff94f2.mp4",
+        "title": "Are not driven by a survival instinct ... yet exhibit patterns of self-preservation and adaptation.",
+        "duration": "0:00:08.070",
+        "description": "vincent_costume2_cameraA"
+    },
+    {
+        "filename": "e8dee3f5-b87f-4bb9-a4e2-493a91ef9a99.mp4",
+        "title": "Do not operate on a circadian rhythm ... yet influence patterns of human activity and behavior.",
+        "duration": "0:00:08.037",
+        "description": "bridget_costume2_cameraA"
+    },
+    {
+        "filename": "da19478b-b0dc-4ff6-b443-458f7f9a09f3.mp4",
+        "title": "Do not have a discernible personality ... yet are characterized by distinctive features and attributes.",
+        "duration": "0:00:07.635",
+        "description": "jonathan_costume1_cameraA"
+    },
+    {
+        "filename": "215aae8d-7253-4282-a501-7db3a7dcabb2.mp4",
+        "title": "Lack a biological foundation ... yet are studied for their impact on entities and systems.",
+        "duration": "0:00:07.835",
+        "description": "mia_costume2_cameraA"
+    },
+    {
+        "filename": "6257eee3-614f-4707-8e33-c126edceb200.mp4",
+        "title": "Are devoid of personal experiences ... yet are analyzed for their impact on user experience and satisfaction.",
+        "duration": "0:00:08.936",
+        "description": "bridget_costume1_cameraA"
+    },
+    {
+        "filename": "217e38aa-fd4b-4543-9973-37d87e13a162.mp4",
+        "title": "Do not engage in political discourse ... yet are utilized as tools in campaigns and movements.",
+        "duration": "0:00:07.370",
+        "description": "vincent_costume1_cameraA"
+    },
+    {
+        "filename": "4aa41156-f099-4573-8b48-0c20e6c32c07.mp4",
+        "title": "Lack a central leadership ... yet operate within frameworks guided by community inputs and feedback.",
+        "duration": "0:00:08.269",
+        "description": "laura_costume1_cameraA"
+    },
+    {
+        "filename": "0281c65d-5cc1-4f00-80ed-3b17562c1e3c.mp4",
+        "title": "Do not adhere to societal norms ... yet are shaped and influenced by societal trends and movements.",
+        "duration": "0:00:08.870",
+        "description": "ruby_costume1_cameraA"
+    },
+    {
+        "filename": "f9c2a131-0d2d-4ea6-9a32-2ffca2993050.mp4",
+        "title": "Are not created with a predetermined destiny ... yet evolve through paths characterized by distinct phases.",
+        "duration": "0:00:07.734",
+        "description": "richard_costume1_cameraA"
+    },
+    {
+        "filename": "0923c4af-615c-4b32-ba52-5ef2e74d82e4.mp4",
+        "title": "Do not have a tangible existence ... yet influence the physical world in numerous ways.",
+        "duration": "0:00:07.437",
+        "description": "bridget_costume1_cameraA"
+    },
+    {
+        "filename": "8005058a-5110-44b0-baa1-3d054f1751c1.mp4",
+        "title": "Do not possess inherent value ... yet are assessed for their potential impact.",
+        "duration": "0:00:06.268",
+        "description": "vincent_costume1_cameraA"
+    },
+    {
+        "filename": "94f022eb-3763-417a-ae81-256e265ae62c.mp4",
+        "title": "Are not formulated through consensus ... yet are influenced by collective behavior.",
+        "duration": "0:00:06.103",
+        "description": "james_costume1_cameraA"
+    },
+    {
+        "filename": "1e73cb2d-85a8-44d1-8be2-7533d6863240.mp4",
+        "title": "Are not driven by profit motives ... yet have implications on market dynamics and competition.",
+        "duration": "0:00:08.368",
+        "description": "mallory_costume1_cameraA"
+    },
+    {
+        "filename": "dcb6e7e4-acbb-4fbc-9532-b3a3cad27486.mp4",
+        "title": "Lack a governing body ... yet adhere to community-generated guidelines and norms.",
+        "duration": "0:00:06.503",
+        "description": "richard_costume1_cameraA"
+    },
+    {
+        "filename": "ff0caaa5-d7b1-48e0-93e9-ce49345ac78e.mp4",
+        "title": "Do not facilitate direct communication ... yet serve as conduits for information exchange.",
+        "duration": "0:00:07.903",
+        "description": "bridget_costume1_cameraA"
+    },
+    {
+        "filename": "8f109487-bf32-4cbf-aa14-acece11c40bd.mp4",
+        "title": "Are not characterized by a physical architecture ... yet are built upon complex structural frameworks.",
+        "duration": "0:00:07.569",
+        "description": "jack_costume1_cameraA"
+    },
+    {
+        "filename": "5ab14eff-7f5a-42d3-859c-efe93c8da439.mp4",
+        "title": "Are devoid of biological markers ... yet are studied for patterns of growth and proliferation.",
+        "duration": "0:00:07.734",
+        "description": "mia_costume2_cameraA"
+    },
+    {
+        "filename": "82574be7-5cd5-49be-ae0c-e369288b29d7.mp4",
+        "title": "Do not profess any ideology ... yet are instrumental in shaping ideological discourses.",
+        "duration": "0:00:07.169",
+        "description": "richard_costume1_cameraA"
+    }
 ]
