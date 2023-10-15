@@ -10,7 +10,7 @@ import { configure } from "queryparams";
 
 const DOM = {
   stage: document.getElementById("stage")!,
-  video: document.getElementById("video")!,
+  videos: document.getElementById("videos")!,
   subtitles: document.getElementById("subtitles")!,
   display: document.getElementById("display")!,
   overlay: document.getElementById("overlay")!,
@@ -72,10 +72,11 @@ const init = () => {
 
     button.addEventListener("click", () => {
       STATE.playing = true;
+      button.remove();
       init();
     });
 
-    DOM.video.appendChild(button);
+    DOM.stage.appendChild(button);
 
     return;
   }
@@ -120,8 +121,8 @@ const init = () => {
   const existingVideos = document.querySelectorAll("video");
 
   // Add the new video
-  DOM.video.appendChild(video);
-  DOM.video.appendChild(mirror);
+  DOM.videos.appendChild(video);
+  DOM.videos.appendChild(mirror);
 
   // Fade in new video, remove the exisitng videos, if any
   video.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 100 }).onfinish =

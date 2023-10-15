@@ -1,8 +1,12 @@
+$font-size: 7;
+$button-color: purple;
+$blur: 0.75em;
+
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.25;
-  font-size: min(5vw, 5vh);
+  font-size: min(#{$font-size}vw, #{$font-size}vh);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -32,20 +36,18 @@ body {
       backdrop-filter: invert(1);
     }
 
-    .Video,
-    .Mirror {
+    .Player {
       filter: hue-rotate(180deg);
     }
   }
 
-  &__player {
-    position: relative;
-    flex: 2;
-  }
-
   &__display {
     flex: 1;
-    backdrop-filter: blur(1em);
+    backdrop-filter: blur($blur);
+
+    @media (orientation: landscape) {
+      flex: 0;
+    }
   }
 
   &__indicator {
@@ -77,6 +79,23 @@ body {
   }
 }
 
+.Player {
+  position: relative;
+  flex: 2;
+
+  &__subtitles {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    pointer-events: none;
+    text-align: center;
+    color: white;
+    padding: 5em 1em 1em 1em;
+    mix-blend-mode: difference;
+  }
+}
+
 .Video {
   position: absolute;
   width: 100%;
@@ -100,27 +119,15 @@ body {
   overflow: hidden;
 }
 
-.Subtitles {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  pointer-events: none;
-  text-align: center;
-  color: white;
-  padding: 5em 1em 1em 1em;
-  mix-blend-mode: difference;
-}
-
 .Button {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: min(5vw, 5vh);
+  font-size: min(#{$font-size}vw, #{$font-size}vh);
   background-color: white;
   border: 0;
-  color: purple;
+  color: $button-color;
   cursor: pointer;
   padding: 2em;
   width: 100%;
