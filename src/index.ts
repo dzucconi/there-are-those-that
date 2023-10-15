@@ -3,16 +3,29 @@
 // - Fullscreen option
 // - Add error handling
 // - Improve subtitle pull in/out
+// - Improve landscape display
 
 import data from "./assets/data.json";
+import { configure } from "queryparams";
 
 const DOM = {
+  stage: document.getElementById("stage")!,
   video: document.getElementById("video")!,
   subtitles: document.getElementById("subtitles")!,
   display: document.getElementById("display")!,
   overlay: document.getElementById("overlay")!,
   spinner: document.getElementById("spinner")!,
 };
+
+const { params } = configure({ invert: true, rotate: false });
+
+if (params.invert) {
+  DOM.stage.classList.add("Stage--invert");
+}
+
+if (params.rotate) {
+  DOM.stage.classList.add("Stage--rotate");
+}
 
 const shuffle = <T>(array: T[]) => {
   const shuffled = array.slice();

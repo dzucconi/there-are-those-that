@@ -10,6 +10,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   bottom: 0;
   width: 100%;
   height: 100%;
@@ -17,17 +18,37 @@ body {
   flex-direction: column;
   background-color: black;
 
-  &--player {
+  &--rotate {
+    width: 100vh;
+    height: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: rotate(90deg) translate(-50%, -50%);
+    transform-origin: top left;
+  }
+
+  &--invert {
+    .Stage__overlay {
+      backdrop-filter: invert(1);
+    }
+
+    .Video,
+    .Mirror {
+      filter: hue-rotate(180deg);
+    }
+  }
+
+  &__player {
     position: relative;
     flex: 2;
   }
 
-  &--display {
+  &__display {
     flex: 1;
     backdrop-filter: blur(1em);
   }
 
-  &--indicator {
+  &__indicator {
     position: fixed;
     top: 0;
     left: 0;
@@ -43,6 +64,16 @@ body {
       opacity: 0;
       transition: opacity 200ms;
     }
+  }
+
+  &__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 99;
   }
 }
 
@@ -69,11 +100,6 @@ body {
   overflow: hidden;
 }
 
-.Video,
-.Mirror {
-  filter: hue-rotate(180deg);
-}
-
 .Subtitles {
   position: absolute;
   bottom: 0;
@@ -84,16 +110,6 @@ body {
   color: white;
   padding: 5em 1em 1em 1em;
   mix-blend-mode: difference;
-}
-
-.Overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 99;
 }
 
 .Button {
@@ -109,8 +125,4 @@ body {
   padding: 2em;
   width: 100%;
   height: 100%;
-}
-
-.Overlay {
-  backdrop-filter: invert(1);
 }
