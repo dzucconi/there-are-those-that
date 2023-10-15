@@ -3,7 +3,6 @@
 // - Fullscreen option
 // - Add error handling
 // - Improve subtitle pull in/out
-// - Improve landscape display
 
 import data from "./assets/data.json";
 import { configure } from "queryparams";
@@ -17,7 +16,7 @@ const DOM = {
   spinner: document.getElementById("spinner")!,
 };
 
-const { params } = configure({ invert: true, rotate: false });
+const { params } = configure({ invert: false, rotate: false });
 
 if (params.invert) {
   DOM.stage.classList.add("Stage--invert");
