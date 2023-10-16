@@ -41,15 +41,6 @@ body {
     }
   }
 
-  &__display {
-    flex: 1;
-    backdrop-filter: blur($blur);
-
-    @media (orientation: landscape) {
-      flex: 0;
-    }
-  }
-
   &__indicator {
     position: fixed;
     top: 0;
@@ -105,18 +96,6 @@ body {
   display: block;
   // Avoid 1px white line in some configurations
   transform: scale(1.005);
-}
-
-.Mirror {
-  transform: scale(1, -1);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  object-fit: cover;
-  display: block;
-  top: 100%;
-  overflow: hidden;
 }
 
 .Button {

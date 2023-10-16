@@ -3,7 +3,6 @@
 // - Fullscreen option
 // - Add error handling
 // - Improve subtitle pull in/out
-// - Improve landscape display
 
 import data from "./assets/data.json";
 import { configure } from "queryparams";
@@ -12,7 +11,6 @@ const DOM = {
   stage: document.getElementById("stage")!,
   videos: document.getElementById("videos")!,
   subtitles: document.getElementById("subtitles")!,
-  display: document.getElementById("display")!,
   overlay: document.getElementById("overlay")!,
   spinner: document.getElementById("spinner")!,
 };
@@ -97,15 +95,6 @@ const init = () => {
 
   video.load();
 
-  // Create a blurred mirror copy
-  const mirror = document.createElement("video");
-  mirror.className = "Mirror";
-  mirror.src = entry.filename;
-  mirror.controls = false;
-  mirror.playsInline = true;
-  mirror.autoplay = true;
-  mirror.muted = true;
-
   // Set up subtitles
   const duration = entry.duration.split(":").reduce((acc, curr, i) => {
     const multiplier = [3600, 60, 1][i];
@@ -122,7 +111,6 @@ const init = () => {
 
   // Add the new video
   DOM.videos.appendChild(video);
-  DOM.videos.appendChild(mirror);
 
   // Fade in new video, remove the exisitng videos, if any
   video.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 100 }).onfinish =
@@ -138,7 +126,6 @@ const init = () => {
       DOM.spinner.style.opacity = "0";
 
       video.play();
-      mirror.play();
 
       setTimeout(() => {
         DOM.subtitles.innerHTML = subtitles[1];
