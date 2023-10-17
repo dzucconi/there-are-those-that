@@ -123,20 +123,32 @@ const init = () => {
       }
     };
 
-  video.addEventListener(
-    "canplaythrough",
-    () => {
-      DOM.spinner.style.opacity = "0";
-
-      video.play().catch((err) => {
-        console.error(err);
-        STATE.playing = false;
-        init();
-      });
+  const play = async () => {
+    try {
+      await video.play();
 
       setTimeout(() => {
         DOM.subtitles.innerHTML = subtitles[1];
       }, pause);
+    } catch (err) {
+      const button = document.createElement("button");
+      button.textContent = "Continue";
+      button.className = "Button";
+
+      button.addEventListener("click", () => {
+        video.play();
+        button.remove();
+      });
+
+      DOM.stage.appendChild(button);
+    }
+  };
+
+  video.addEventListener(
+    "canplaythrough",
+    () => {
+      DOM.spinner.style.opacity = "0";
+      play();
     },
     { once: true }
   );
@@ -172,11 +184,7 @@ const init = () => {
     if (STATE.retries < MAX_RETRIES) {
       setTimeout(() => {
         video.load();
-        video.play().catch((err) => {
-          console.error(err);
-          STATE.playing = false;
-          init();
-        });
+        play();
         STATE.retries++;
       }, 1000);
 
