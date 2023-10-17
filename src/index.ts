@@ -128,7 +128,12 @@ const init = () => {
     () => {
       DOM.spinner.style.opacity = "0";
 
-      video.play();
+      video.play().catch((err) => {
+        console.error(err);
+        setTimeout(() => {
+          init(); // Re-initialize
+        }, 1000);
+      });
 
       setTimeout(() => {
         DOM.subtitles.innerHTML = subtitles[1];
@@ -168,7 +173,12 @@ const init = () => {
     if (STATE.retries < MAX_RETRIES) {
       setTimeout(() => {
         video.load();
-        video.play();
+        video.play().catch((err) => {
+          console.error(err);
+          setTimeout(() => {
+            init(); // Re-initialize
+          }, 1000);
+        });
         STATE.retries++;
       }, 1000);
 
