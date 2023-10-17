@@ -34,9 +34,12 @@ const shuffle = <T>(array: T[]) => {
   return shuffled;
 };
 
+const MAX_RETRIES = 5;
+
 const STATE = {
   playing: false,
   queue: shuffle(data),
+  retries: 0,
 };
 
 const next = () => {
@@ -154,9 +157,29 @@ const init = () => {
     { once: true }
   );
 
-  video.addEventListener("error", (e) => {
-    console.error(e);
-    init(); // Retry
+  video.addEventListener("error", (err) => {
+    console.error(err);
+    setTimeout(() => {
+      init(); // Re-initialize
+    }, 1000);
+  });
+
+  video.addEventListener("stalled", () => {
+    if (STATE.retries < MAX_RETRIES) {
+      setTimeout(() => {
+        video.load();
+        video.play();
+        STATE.retries++;
+      }, 1000);
+
+      return;
+    }
+
+    STATE.retries = 0;
+
+    setTimeout(() => {
+      init(); // Re-initialize
+    }, 1000);
   });
 };
 
