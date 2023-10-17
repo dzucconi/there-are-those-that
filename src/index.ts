@@ -130,7 +130,8 @@ const init = () => {
 
       video.play().catch((err) => {
         console.error(err);
-        alert(`Error: ${err.message}`);
+        STATE.playing = false;
+        init();
       });
 
       setTimeout(() => {
@@ -173,7 +174,8 @@ const init = () => {
         video.load();
         video.play().catch((err) => {
           console.error(err);
-          alert(`Error: ${err.message}`);
+          STATE.playing = false;
+          init();
         });
         STATE.retries++;
       }, 1000);
