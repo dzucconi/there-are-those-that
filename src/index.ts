@@ -153,6 +153,11 @@ const init = () => {
     },
     { once: true }
   );
+
+  video.addEventListener("error", (e) => {
+    console.error(e);
+    init(); // Retry
+  });
 };
 
 init();
