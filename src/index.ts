@@ -126,7 +126,6 @@ const init = () => {
   const play = async () => {
     try {
       await video.play();
-
       setTimeout(() => {
         DOM.subtitles.innerHTML = subtitles[1];
       }, pause);
@@ -137,6 +136,9 @@ const init = () => {
 
       button.addEventListener("click", () => {
         video.play();
+        setTimeout(() => {
+          DOM.subtitles.innerHTML = subtitles[1];
+        }, pause);
         button.remove();
       });
 
