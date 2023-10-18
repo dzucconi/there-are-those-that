@@ -171,6 +171,30 @@ const init = () => {
       preload.load();
 
       preload.addEventListener("canplaythrough", init, { once: true });
+
+      preload.addEventListener("error", (err) => {
+        console.error(err);
+        setTimeout(() => {
+          init(); // Re-initialize
+        }, 1000);
+      });
+
+      preload.addEventListener("stalled", () => {
+        if (STATE.retries < MAX_RETRIES) {
+          setTimeout(() => {
+            preload.load();
+            STATE.retries++;
+          }, 1000);
+
+          return;
+        }
+
+        STATE.retries = 0;
+
+        setTimeout(() => {
+          init(); // Re-initialize
+        }, 1000);
+      });
     },
     { once: true }
   );
