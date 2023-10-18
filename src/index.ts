@@ -1,11 +1,11 @@
 // TODO:
-// - Improve play button
 // - Fullscreen option
-// - Add error handling
 // - Improve subtitle pull in/out
 
 import data from "./assets/data.json";
 import { configure } from "queryparams";
+
+const isTouchDevice = "ontouchstart" in document.documentElement;
 
 const DOM = {
   stage: document.getElementById("stage")!,
@@ -131,7 +131,7 @@ const init = () => {
       }, pause);
     } catch (err) {
       const button = document.createElement("button");
-      button.textContent = "Continue";
+      button.textContent = isTouchDevice ? "Continue" : "";
       button.className = "Button";
 
       button.addEventListener("click", () => {
