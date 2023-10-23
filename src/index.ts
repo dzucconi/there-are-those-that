@@ -15,7 +15,7 @@ const DOM = {
   spinner: document.getElementById("spinner")!,
 };
 
-const { params } = configure({ invert: true, rotate: false });
+const { params } = configure({ invert: false, rotate: false });
 
 if (params.invert) {
   DOM.stage.classList.add("Stage--invert");

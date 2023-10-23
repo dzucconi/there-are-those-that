@@ -47,8 +47,8 @@ body {
     left: 0;
     color: white;
     padding: 0.5em;
-    width: 1em;
-    height: 1em;
+    width: 0.75em;
+    height: 0.75em;
     mix-blend-mode: difference;
 
     svg {
@@ -81,9 +81,8 @@ body {
     left: 0;
     pointer-events: none;
     text-align: center;
-    color: white;
+    color: yellow;
     padding: 5em 1em 1em 1em;
-    mix-blend-mode: difference;
   }
 }
 
@@ -95,7 +94,7 @@ body {
   object-fit: cover;
   display: block;
   // Avoid 1px white line in some configurations
-  transform: scale(1.005);
+  transform: scale(10);
 }
 
 .Button {
